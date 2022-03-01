@@ -31,8 +31,31 @@
         aside#sidebar {
             margin-top: 10px;
             margin-bottom: 10px;
-            border: 2px solid rgb(39, 26, 20);
             text-align: center;
+        }
+
+        aside#sidebar>* {
+            border: 2px solid rgb(39, 26, 20);
+
+        }
+
+        div#calendar-navigation {
+            display: flex;
+            justify-content: space-between;
+            padding-inline-start: 10px;
+            padding-inline-end: 10px;
+            padding-top: 5px;
+        }
+
+        div.calendar-button {
+            background-color: #005242;
+            color: white;
+            font-weight: bold;
+            padding: 2px;
+            width: 26px;
+            height: 26px;
+            border-radius: 15px;
+            vertical-align: middle;
         }
 
         @font-face {
@@ -105,6 +128,7 @@
                 <li>概論</li>
                 <li>燐帝字母</li>
                 <li>テクスト読解</li>
+                <li>教材紹介</li>
             </ul>
         </div>
     </header>
@@ -133,7 +157,7 @@
                     <p>liaxu yuesleone adit ecceverlo, alerqi io karmaciste'd larkasal lernicco'ct niorelon ujopes melx
                         selene
                         vatimel kinieses paltaustan. mal, missen icco'd etollen meu l'es cerke'i fonton larkas <a
-                            href="https://sites.google.com/view/cet2kaik/fal-lineparine">cierjustel
+                            href="https://sites.google.com/view/cet2kaik/%E4%BB%96%E8%A8%80%E8%AA%9E%E7%89%88-other-languages/fal-lineparine">cierjustel
                             cerke's fon japaeo</a> mag meumal fon pustiej letix les loler keluxer cerke'it faller
                         menecartj'ustat.
                         vatimel, meumal fon pustiej lius plascakurfti'aium gelx jol vxorlnajtes linzklar ly. mag, miss
@@ -196,13 +220,78 @@
 
                     <p><img class="glyph" src="./glyphs/心.png" height="20" width="20">：原義は「心」ですが、パイグ語 hia1（ヒアー）だったりバート語
                         rijúḷ（ﾙリユール）だったりは「～したい」という意味でも用いられます。ここでは「心」の意味で、直前の<img class="glyph" src="./glyphs/散.png"
-                            height="20" width="20">と組み合わせて「心を散らす」という意味になりますが、これは「死ぬ」の意味の婉曲表現です。字の形は、「人」という意味の<img class="glyph" src="./glyphs/人.png"
-                            height="20" width="20">の中央部を強調したもので、心動かされるときに躍動する心臓の位置を表すことで心の意味を表現したものです。</p>
+                            height="20" width="20">と組み合わさって「心を散らす」という意味になりますが、これは「死ぬ」の意味の婉曲表現です。字の形は、「人」という意味の<img
+                            class="glyph" src="./glyphs/人.png" height="20"
+                            width="20">の中央部を強調したもので、心動かされるときに躍動する心臓の位置を表すことで心の意味を表現したものです。</p>
 
                 </article>
             </article>
         </nav>
-        <aside style="width: 240px;" id="sidebar">ここにサイドバー</aside>
+        <aside style="width: 240px;" id="sidebar">
+            <div id="calendar">
+                <div id="calendar-navigation">
+                    <div class="calendar-button">←</div>
+                    <div>2021年8月</div>
+                    <div class="calendar-button">→</div>
+                </div>
+                <table id="cal" style="margin: 0 auto;">
+                    <tr>
+                        <th>日</th>
+                        <th>月</th>
+                        <th>火</th>
+                        <th>水</th>
+                        <th>木</th>
+                        <th>金</th>
+                        <th>土</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>16</td>
+                        <td><a href="2021-08-17.html">17</a></td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td><a href="2021-08-22.html">22</a></td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </aside>
     </div>
 </body>
 
