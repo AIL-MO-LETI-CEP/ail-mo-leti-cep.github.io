@@ -87,7 +87,7 @@
         }
 
         img.glyph {
-            filter: brightness(65%)contrast(500%);
+            filter: brightness(65%) contrast(500%);
             vertical-align: middle;
         }
 
@@ -99,11 +99,18 @@
             font-size: 80%;
             padding-inline-start: 40px;
             padding-inline-end: 40px;
+            align-items: center;
         }
 
         .header-genres-container>ul>li {
             position: relative;
             text-align: center;
+            flex: 1;
+            border-right: 2px groove #aaa;
+        }
+
+        .header-genres-container>ul>li:last-child {
+            border: none;
         }
 
         .header-genres-container>ul>li:hover {
