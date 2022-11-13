@@ -10,7 +10,8 @@
             margin: auto;
         }
         img.poster{
-            width: 200px;
+            min-width: 100px;
+            width: 100%;
         }
         div {
             margin: auto;
@@ -26,12 +27,26 @@
         }
         div.img{
             margin-right: 10px;
+            width: 200px;
         }
         div.title{
             font-size: x-large;
         }
         div.data{
             font-size: small;
+        }
+
+        @media screen and ( max-width: 830px ){
+            div.poster{
+                display: block;
+                margin-top: 50px;
+            }
+            div.img{
+                margin-right: auto;
+            }
+            div.info{
+                margin-left: auto;
+            }
         }
 
         @font-face {
