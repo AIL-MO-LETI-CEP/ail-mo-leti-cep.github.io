@@ -1,0 +1,115 @@
+html, body {
+    padding: 0;
+    margin: 0 5px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+    body {
+        color: white;
+        background: black;
+    }
+}
+
+@font-face {
+    font-family: 'cirlipa';
+    src: url('https://sozysozbot.github.io/fonts/cirlxarli_liparxe_1.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'pektak';
+    src: url('https://sozysozbot.github.io/fonts/pek_tak.woff') format('woff');
+}
+
+:lang(x-lineparine) {
+    font-family: 'cirlipa';
+}
+
+a:lang(x-lineparine) {
+    text-decoration: none;
+    /* f とかのディセンダーと衝突して読みづらい */
+    font-weight: bold;
+}
+
+:lang(x-pemecepe) {
+    font-family: 'pektak';
+}
+
+.header-logo-container {
+    display: flex;
+}
+
+img.glyph {
+    filter: brightness(65%) contrast(500%);
+    vertical-align: middle;
+}
+
+.header-genres-container>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: bold;
+    font-size: 80%;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+    align-items: center;
+}
+
+.header-genres-container>ul>li {
+    position: relative;
+    text-align: center;
+    flex: 1;
+    border-right: 2px groove #aaa;
+}
+
+.header-genres-container>ul>li:last-child {
+    border: none;
+}
+
+a.header-link {
+    color: black;
+    text-decoration: none;
+}
+
+a.header-link:hover {
+    color: #005242;
+}
+
+a.footer-link {
+    color: #666;
+}
+
+a.footer-link:hover {
+    color: #005242;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 970px;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 970px;
+}
+
+body {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+article {
+    margin: 0 auto;
+}
