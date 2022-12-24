@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const mock = () => {
     return (
-        <div style={{margin: "0 auto", maxWidth: "970px", display: flex;}}>
+        <div style={{margin: "0 auto", maxWidth: "970px", display: "flex"}}>
             <nav id="posts" style={{width: "730px"}}>
 
             </nav>
