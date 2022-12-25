@@ -29,10 +29,6 @@ const HeaderLogoContainer = styled.div`
     display: flex;
 `;
 
-const Logo = styled.div`
-    margin-right: 10px;
-`;
-
 const HeaderTab = styled.ul`
     display: flex;
     justify-content: space-between;

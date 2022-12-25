@@ -2,9 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+};
 
-module.exports = {
+const withExportImages = require('next-export-optimize-images');
+
+module.exports = withExportImages({
   basePath: process.env.GITHUB_ACTIONS && "/ail-mo-leti-cep.github.io",
   trailingSlash: true,
-};
+});

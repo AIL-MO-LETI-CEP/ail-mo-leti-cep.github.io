@@ -13,7 +13,7 @@ const Index = () => {
             <Description>アイルおよびPMCFを中心に、ポスターや本の表紙などの資料を展示する。</Description>
 
             <PosterContainer>
-                <PosterImageContainer><Image src="/imgs/poster/micetltmo.png" style={{minWidth: "100px"}} height={282.9} width={200} alt=""></Image></PosterImageContainer>
+                <PosterImageContainer><Image src="/imgs/poster/micetltmo.png" style={{minWidth: "100px"}} height={282.9} width={200} alt="" /></PosterImageContainer>
                 <PosterInfoContainer>
                     <PosterTitle>『我々の文化』ロゴ</PosterTitle>
                     <PosterDescription>
@@ -27,7 +27,7 @@ const Index = () => {
             </PosterContainer>
 
             <PosterContainer>
-                <PosterImageContainer><Image src="/imgs/poster/jukancetageka.png" style={{minWidth: "100px"}} height={282.9} width={200} alt=""></Image></PosterImageContainer>
+                <PosterImageContainer><Image src="/imgs/poster/jukancetageka.png" style={{minWidth: "100px"}} height={282.9} width={200} alt="" /></PosterImageContainer>
                 <PosterInfoContainer>
                     <PosterTitle>「<ruby>此時<rt>かかく</rt></ruby><ruby>官定<rt>ゆかん</rt></ruby><ruby>机戦<rt>せたげか</rt></ruby>かん<ruby>皇之<rt>たかな</rt></ruby><ruby>片<rt>ツオ</rt></ruby><ruby>加<rt>あ</rt></ruby>て<ruby>入能<rt>にた</rt></ruby>す」</PosterTitle>
                     <PosterDescription>
@@ -41,7 +41,7 @@ const Index = () => {
             </PosterContainer>
             
             <PosterContainer>
-                <PosterImageContainer><Image src="/imgs/poster/inuca.png" style={{minWidth: "100px"}} height={282.9} width={200} alt=""></Image></PosterImageContainer>
+                <PosterImageContainer><Image src="/imgs/poster/inuca.png" style={{minWidth: "100px"}} height={282.9} width={200} alt="" /></PosterImageContainer>
                 <PosterInfoContainer>
                     <PosterTitle>第七回イヌシ机戦大会</PosterTitle>
                     <PosterDescription>
@@ -55,7 +55,7 @@ const Index = () => {
             </PosterContainer>
             
             <PosterContainer>
-                <PosterImageContainer><Image src="/imgs/poster/truiraikhuetpo.png" style={{minWidth: "100px"}} height={282.9} width={200} alt=""></Image></PosterImageContainer>
+                <PosterImageContainer><Image src="/imgs/poster/truiraikhuetpo.png" style={{minWidth: "100px"}} height={282.9} width={200} alt="" /></PosterImageContainer>
                 <PosterInfoContainer>
                     <PosterTitle>『与光闇道之術』</PosterTitle>
                     <PosterDescription>
@@ -69,7 +69,7 @@ const Index = () => {
             </PosterContainer>
 
             <PosterContainer>
-                <PosterImageContainer><Image src="/imgs/poster/honrui.png" height={282.9} width={200} alt=""></Image></PosterImageContainer>
+                <PosterImageContainer><Image src="/imgs/poster/honrui.png" height={282.9} width={200} alt="" /></PosterImageContainer>
                 <PosterInfoContainer>
                     <PosterTitle>『軟学机戦』（写本）</PosterTitle>
                     <PosterDescription>
@@ -83,7 +83,7 @@ const Index = () => {
             </PosterContainer>
 
             <PosterContainer>
-                <PosterImageContainer><Image src="/imgs/poster/morkliniopor.png" style={{minWidth: "100px"}} height={282.9} width={200} alt=""></Image></PosterImageContainer>
+                <PosterImageContainer><Image src="/imgs/poster/morkliniopor.png" style={{minWidth: "100px"}} height={282.9} width={200} alt="" /></PosterImageContainer>
                 <PosterInfoContainer>
                     <PosterTitle>行清王道</PosterTitle>
                     <PosterDescription>
@@ -97,7 +97,7 @@ const Index = () => {
             </PosterContainer>
 
             <PosterContainer>
-                <PosterImageContainer><Image src="/imgs/poster/lukupitletileti.png" style={{minWidth: "100px"}} height={282.9} width={200} alt=""></Image></PosterImageContainer>
+                <PosterImageContainer><Image src="/imgs/poster/lukupitletileti.png" style={{minWidth: "100px"}} height={282.9} width={200} alt="" /></PosterImageContainer>
                 <PosterInfoContainer>
                     <PosterTitle>「ペメセペ・ルクップ」</PosterTitle>
                     <PosterDescription>

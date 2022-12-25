@@ -1,6 +1,7 @@
 ## Getting Started
 
 Tool Manager [Volta](https://volta.sh/) を利用する．
+
 Windowsの人はWSLを使用すること。
 
 - 準備:

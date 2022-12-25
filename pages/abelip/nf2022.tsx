@@ -17,9 +17,9 @@ const Index = () => {
                         <HeadTitle>架空伝統ゲーム（一行矛盾）</HeadTitle>
                         <HeadGroupName>日本机戦連盟</HeadGroupName>
                         <HeadLinkContainer>
-                            <HeadLink><Link href="https://sites.google.com/view/cet2kaik/"><a><Image src="/imgs/nf2022/site_link.svg" fill alt=""/></a></Link></HeadLink>
-                            <HeadLink><Link href="https://twitter.com/cet2kaik"><a><Image src="/imgs/nf2022/twitter_blue.svg" fill alt=""/></a></Link></HeadLink>
-                            <HeadLink><Link href="https://www.youtube.com/channel/UCdjFUR1MvJ-oExWUKlY2M8A"><a><Image src="/imgs/nf2022/youtube.png" fill alt=""/></a></Link></HeadLink>
+                            <HeadLink><Link href="https://sites.google.com/view/cet2kaik/"><Image src="/imgs/nf2022/site_link.svg" fill alt=""/></Link></HeadLink>
+                            <HeadLink><Link href="https://twitter.com/cet2kaik"><Image src="/imgs/nf2022/twitter_blue.svg" fill alt=""/></Link></HeadLink>
+                            <HeadLink><Link href="https://www.youtube.com/channel/UCdjFUR1MvJ-oExWUKlY2M8A"><Image src="/imgs/nf2022/youtube.png" fill alt=""/></Link></HeadLink>
                         </HeadLinkContainer>
                         <HeadTagContainer>
                             <HeadTag>#歴史</HeadTag>
@@ -58,7 +58,7 @@ const Index = () => {
                         <SubsectionContent>
                             <SubsectionImageContainer>
                                 <Link href="https://sites.google.com/view/cet2kaik/%E6%9C%BA%E6%88%A6%E3%81%A8%E3%81%AF">
-                                    <a><Image src="/imgs/nf2022/image19162.png" fill style={{objectFit: "contain"}} alt=""/></a></Link>
+                                    <Image src="/imgs/nf2022/image19162.png" fill style={{objectFit: "contain"}} alt=""/></Link>
                             </SubsectionImageContainer>
                             <SubsectionInfo>
                                 <p>詳しくなったら遊びたくなった？下の画像へ！</p>
@@ -75,7 +75,7 @@ const Index = () => {
                             </SubsectionInfo>
                             <SubsectionImageContainer>
                                 <Link href="http://jurliyuuri.com/cerke_online_alpha/index.html">
-                                    <a><Image src="/imgs/nf2022/cerke_online.png" fill style={{objectFit: "contain"}} alt=""/></a></Link>
+                                    <Image src="/imgs/nf2022/cerke_online.png" fill style={{objectFit: "contain"}} alt=""/></Link>
                             </SubsectionImageContainer>
                         </SubsectionContent>
                     </Subsection>
@@ -85,7 +85,7 @@ const Index = () => {
                         <SubsectionContent>
                             <SubsectionImageContainer>
                                 <Link href="https://booth.pm/ja/items/3634755">
-                                    <a><Image src="/imgs/nf2022/cerke_booth.png" fill style={{objectFit: "contain"}} alt=""/></a></Link>
+                                    <Image src="/imgs/nf2022/cerke_booth.png" fill style={{objectFit: "contain"}} alt=""/></Link>
                             </SubsectionImageContainer>
                             <SubsectionInfo>
                                 <p>好評発売中！</p>
@@ -103,7 +103,7 @@ const Index = () => {
                             </SubsectionInfo>
                             <SubsectionImageContainer>
                                 <Link href="https://discord.gg/9ytmYgaV23">
-                                    <a><Image src="/imgs/nf2022/cet2kaik_japan_with_frame.png" fill style={{objectFit: "contain"}} alt=""/></a></Link>
+                                    <Image src="/imgs/nf2022/cet2kaik_japan_with_frame.png" fill style={{objectFit: "contain"}} alt=""/></Link>
                             </SubsectionImageContainer>
                         </SubsectionContent>
                     </Subsection>
@@ -116,7 +116,7 @@ const Index = () => {
                         <SubsectionContent>
                             <SubsectionImageContainer>
                                 <Link href="https://sites.google.com/site/syxobo/airu-gong-he-guo-wen-hua-ting">
-                                    <a><Image src="/imgs/nf2022/air_map.png" fill style={{objectFit: "contain"}} alt=""/></a></Link>
+                                    <Image src="/imgs/nf2022/air_map.png" fill style={{objectFit: "contain"}} alt=""/></Link>
                             </SubsectionImageContainer>
                             <SubsectionInfo>
                                 <p>我々の作っている架空世界にある国の一つで、およそ400km四方の本島と周囲の小島に1億ほどの人口を抱える農業国です。さまざまな民族が入り乱れ、単一民族主義の統治をきっかけとする内戦の経験から文化の保護・奨励に力を入れています。</p>
@@ -136,7 +136,7 @@ const Index = () => {
                             </SubsectionInfo>
                             <SubsectionImageContainer>
                                 <Link href="http://www.jurliyuuri.info/wiki/%E3%82%A2%E3%82%A4%E3%83%AB%E5%85%B1%E5%92%8C%E5%9B%BD">
-                                    <a><Image src="/imgs/nf2022/air_culture.png" fill style={{objectFit: "contain"}} alt="" /></a></Link>
+                                    <Image src="/imgs/nf2022/air_culture.png" fill style={{objectFit: "contain"}} alt="" /></Link>
                             </SubsectionImageContainer>
                         </SubsectionContent>
                     </Subsection>
@@ -146,7 +146,7 @@ const Index = () => {
                         <SubsectionContent>
                             <SubsectionImageContainer>
                                 <Link href="/abelip/pemecepe-poster">
-                                    <a><Image src="/imgs/nf2022/inuca.png" fill style={{objectFit: "contain"}} alt=""/></a></Link>
+                                    <Image src="/imgs/nf2022/inuca.png" fill style={{objectFit: "contain"}} alt=""/></Link>
                             </SubsectionImageContainer>
                             <SubsectionInfo>
                                 <p>先に述べたようにアイルは文化を重んじる国であり、言語・習慣の記述・教育や、民族遊戯の大会開催の補助などを積極的に行っています。</p>
@@ -164,7 +164,7 @@ const Index = () => {
                         <SubsectionContent>
                             <SubsectionImageContainer>
                                 <Link href="http://www.jurliyuuri.info/wiki/PMCF">
-                                    <a><Image src="/imgs/nf2022/pemecepe_map.png" fill style={{objectFit: "contain"}} alt=""/></a></Link>
+                                    <Image src="/imgs/nf2022/pemecepe_map.png" fill style={{objectFit: "contain"}} alt=""/></Link>
                             </SubsectionImageContainer>
                             <SubsectionInfo>
                                 <p>アイル共和国の位置する世界では、伝染病の大流行とそれに前後して発生したモンスターの大群によって人類がごく一部の限られた地域にしか生存できなくなっています。この世界にはアイルの他にヴェフィス、リナエスト、ユエスレオネという3つの国がありますが、どれもモンスターと病からの避難民たちが集まって建てた国であり、建国からの歴史はとても浅いことが特徴です。</p>
@@ -210,7 +210,7 @@ const Index = () => {
                             </SubsectionInfo>
                             <SubsectionImageContainer>
                                 <Link href="/lin-leti-lujot/lijuit_kije.pdf">
-                                    <a><Image src="/imgs/nf2022/y1huap1cet2kaikzui1.jpg" fill style={{objectFit: "contain"}} alt=""/></a></Link>
+                                    <Image src="/imgs/nf2022/y1huap1cet2kaikzui1.jpg" fill style={{objectFit: "contain"}} alt=""/></Link>
                             </SubsectionImageContainer>
                         </SubsectionContent>
                     </Subsection>
