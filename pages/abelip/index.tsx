@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { header } from "../../src/components/header";
 import { footer } from "../../src/components/footer";
 import { Title, Description } from "../../src/components/common";
@@ -14,8 +15,8 @@ const Index = () => {
                 </div>
                 <div>
                     <ul>
-                        <li><a href="abelip/pemecepe-poster">ポスター展示</a></li>
-                        <li><a href="abelip/nf2022">京都大学11月祭特設サイト</a></li>
+                        <li><Link href="abelip/pemecepe-poster">ポスター展示</Link></li>
+                        <li><Link href="abelip/nf2022">京都大学11月祭特設サイト</Link></li>
                     </ul>
                 </div>
             </main>
