@@ -4,9 +4,10 @@ const nextConfig = {
   swcMinify: true,
 };
 
-const withExportImages = require('next-export-optimize-images');
-
-module.exports = withExportImages({
+module.exports = {
   basePath: process.env.GITHUB_ACTIONS && "/ail-mo-leti-cep.github.io",
   trailingSlash: true,
-});
+  images: {
+    unoptimized: true,
+  },
+};
