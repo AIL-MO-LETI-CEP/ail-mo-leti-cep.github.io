@@ -1,17 +1,17 @@
-import { header } from 'src/components/header'
-import { footer } from 'src/components/footer'
+import { Header } from 'src/components/header'
+import { Footer } from 'src/components/footer'
 import { Description } from 'src/components/common';
 
 const Index = () => {
   return (
     <div>
-      {header()}
+      <Header />
 
       <main>
         <Description>アイル共和国へようこそ！</Description>
       </main>
       
-      {footer()}
+      <Footer />
     </div>
   );
 };

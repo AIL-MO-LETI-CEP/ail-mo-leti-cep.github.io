@@ -1,13 +1,13 @@
 import Image from "next/image";
 import styled from "@emotion/styled";
-import { header } from "src/components/header";
-import { footer } from "src/components/footer";
+import { Header } from "src/components/header";
+import { Footer } from "src/components/footer";
 import { Title, Description } from "src/components/common";
 
 const Index = () => {
     return (
         <div>
-            {header()}
+            <Header />
 
             <Title>ポスター展示</Title>
             <Description>アイルおよびPMCFを中心に、ポスターや本の表紙などの資料を展示する。</Description>
@@ -110,7 +110,7 @@ const Index = () => {
                 </PosterInfoContainer>
             </PosterContainer>
             
-            {footer()}
+            <Footer />
         </div>
     )
 }

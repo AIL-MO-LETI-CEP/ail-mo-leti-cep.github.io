@@ -1,8 +1,9 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styled from "@emotion/styled";
 
-export const header = () => {
+export const Header: React.FC = () => {
     return (
         <header>
             <HeaderLogoContainer>

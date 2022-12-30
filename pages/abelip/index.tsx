@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { header } from "src/components/header";
-import { footer } from "src/components/footer";
+import { Header } from "src/components/header";
+import { Footer } from "src/components/footer";
 import { Title, Description } from "src/components/common";
 
 const Index = () => {
     return (
         <div>
-            {header()}
+            <Header />
 
             <main>
                 <div>
@@ -21,7 +21,7 @@ const Index = () => {
                 </div>
             </main>
 
-            {footer()}
+            <Footer />
         </div>
     );
 };
