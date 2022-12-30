@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import styled from "@emotion/styled";
-import { header } from "../../src/components/header";
-import { footer } from "../../src/components/footer";
-import { IframeContainer } from "../../src/components/common"
+import { header } from "src/components/header";
+import { footer } from "src/components/footer";
+import { IframeContainer } from "src/components/common"
 
 const Index = () => {
     return (

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styled from "@emotion/styled";
-import { header } from "../../src/components/header";
-import { footer } from "../../src/components/footer";
-import { Title, Description } from "../../src/components/common";
+import { header } from "src/components/header";
+import { footer } from "src/components/footer";
+import { Title, Description } from "src/components/common";
 
 const Index = () => {
     return (
