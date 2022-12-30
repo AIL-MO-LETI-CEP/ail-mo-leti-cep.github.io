@@ -1,10 +1,13 @@
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
 
 export default class Document extends NextDocument {
-    render(): JSX.Element {
+    render() {
         return (
             <Html>
                 <Head>
+                    <meta charSet="UTF-8" />
+                    <meta property="og:site_name" content="AIL MO LETI CEP" />
+                    <meta name="twitter:card" content="summary" />
                     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
                     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
                     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
