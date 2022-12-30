@@ -118,12 +118,14 @@ const Index = () => {
 export default Index;
 
 const PosterContainer = styled.article`
-    display: flex;
+    @media screen and (min-width: 450px) {
+        display: flex;
+    }
     margin-top: 40px;
 `;
 
 const PosterImageContainer = styled.div`
-    margin-right: 10px;
+    margin: auto;
     width: 200px;
 `;
 

@@ -290,11 +290,15 @@ const HeadTagContainer = styled.div`
 `;
 
 const HeadTag = styled.div`
+    @media screen and (min-width: 800px) {
+        padding: 0 0.9em;
+        font-size: 12px;
+    }
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
-    padding: 0 0.9em;
+    padding: 0 0.7em;
     background-color: #fff;
     border: 1px solid #aaa;
     border-radius: 6px;
@@ -302,7 +306,7 @@ const HeadTag = styled.div`
     text-overflow: ellipsis;
     overflow: hidden;
     color: #333;
-    font-size: 12px;
+    font-size: 11px;
     text-decoration: none;
     transition: .2s;
     box-sizing: border-box;
