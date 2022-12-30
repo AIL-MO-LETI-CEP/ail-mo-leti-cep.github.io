@@ -19,7 +19,7 @@ const Index = () => {
                         <HeadLinkContainer>
                             <HeadLink><Link href="https://sites.google.com/view/cet2kaik/"><Image src="/imgs/nf2022/site_link.svg" fill alt=""/></Link></HeadLink>
                             <HeadLink><Link href="https://twitter.com/cet2kaik"><Image src="/imgs/nf2022/twitter_blue.svg" fill alt=""/></Link></HeadLink>
-                            <HeadLink><Link href="https://www.youtube.com/channel/UCdjFUR1MvJ-oExWUKlY2M8A"><Image src="/imgs/nf2022/youtube.png" fill alt=""/></Link></HeadLink>
+                            <HeadLink><Link href="https://www.youtube.com/channel/UCdjFUR1MvJ-oExWUKlY2M8A"><Image src="/imgs/nf2022/YouTube.png" fill alt=""/></Link></HeadLink>
                         </HeadLinkContainer>
                         <HeadTagContainer>
                             <HeadTag>#歴史</HeadTag>
