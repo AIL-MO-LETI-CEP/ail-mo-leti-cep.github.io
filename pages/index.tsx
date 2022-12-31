@@ -1,6 +1,6 @@
-import { Header } from 'src/components/header'
-import { Footer } from 'src/components/footer'
-import { Description } from 'src/components/common';
+import { Header } from "src/components/header";
+import { Footer } from "src/components/footer";
+import { Description } from "src/components/common";
 
 const Index = () => {
   return (
@@ -10,7 +10,7 @@ const Index = () => {
       <main>
         <Description>アイル共和国へようこそ！</Description>
       </main>
-      
+
       <Footer />
     </div>
   );
