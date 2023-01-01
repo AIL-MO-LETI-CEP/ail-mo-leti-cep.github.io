@@ -5,9 +5,11 @@
         "es2021": true
     },
     "extends": [
+        "next/core-web-vitals",
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
     ],
     "overrides": [{
         "files": ["*.tsx"],
@@ -28,7 +30,7 @@
     "rules": {
         "indent": [
             "error",
-            4
+            2
         ],
         "linebreak-style": [
             "error",
