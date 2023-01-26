@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import { Header } from "src/components/header";
 import { Footer } from "src/components/footer";
 import { Title, Description } from "src/components/common";
@@ -6,6 +7,9 @@ import { Title, Description } from "src/components/common";
 const Index = () => {
   return (
     <div>
+      <Head>
+        <title>教材紹介 | AIL MO LETI CEP</title>
+      </Head>
       <Header />
 
       <main>

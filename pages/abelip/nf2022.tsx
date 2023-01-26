@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import Link from "next/link";
 import styled from "@emotion/styled";
 import { Header } from "src/components/header";
@@ -8,6 +9,9 @@ import { IframeContainer } from "src/components/common";
 const Index = () => {
   return (
     <div>
+      <Head>
+        <title>京都大学11月祭特設サイト | AIL MO LETI CEP</title>
+      </Head>
       <Header />
 
       <main>

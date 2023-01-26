@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import styled from "@emotion/styled";
 import { Header } from "src/components/header";
 import { Footer } from "src/components/footer";
@@ -7,6 +8,9 @@ import { Title, Description } from "src/components/common";
 const Index = () => {
   return (
     <div>
+      <Head>
+        <title>ポスター展示 | AIL MO LETI CEP</title>
+      </Head>
       <Header />
 
       <Title>ポスター展示</Title>

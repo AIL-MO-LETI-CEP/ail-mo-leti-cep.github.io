@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import { Header } from "src/components/header";
 import { Footer } from "src/components/footer";
 import { Title, Description } from "src/components/common";
@@ -6,11 +7,14 @@ import { Title, Description } from "src/components/common";
 const Index = () => {
   return (
     <div>
+      <Head>
+        <title>各種展示 | AIL MO LETI CEP</title>
+      </Head>
       <Header />
 
       <main>
         <div>
-          <Title>展示</Title>
+          <Title>各種展示</Title>
           <Description>
             このページでは、過去に行われた展示のアーカイブを提供しています。
           </Description>
