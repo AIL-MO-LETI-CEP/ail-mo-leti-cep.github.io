@@ -33,6 +33,11 @@ a {
     src: url('https://sozysozbot.github.io/fonts/pek_tak.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'rounded';
+    src: url('https://yasusho.github.io/linmarn_font_project/fonts/linzklar_rounded.woff') format('woff');
+}
+
 :lang(x-lineparine) {
     font-family: 'cirlipa';
 }
@@ -45,6 +50,11 @@ a:lang(x-lineparine) {
 
 :lang(x-pemecepe) {
     font-family: 'pektak';
+}
+
+:lang(x-linmarn) {
+    font-family: 'rounded';
+    font-size: 150%;
 }
 
 .header-logo-container {
