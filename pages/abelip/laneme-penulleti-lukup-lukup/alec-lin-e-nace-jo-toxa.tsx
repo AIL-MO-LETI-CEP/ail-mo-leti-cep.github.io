@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Head from "next/head";
 import { Header } from "src/components/header";
 import { Footer } from "src/components/footer";

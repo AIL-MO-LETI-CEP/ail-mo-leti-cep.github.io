@@ -3,7 +3,6 @@ import Head from "next/head";
 import { Header } from "src/components/header";
 import { Footer } from "src/components/footer";
 import { Title, Description } from "src/components/common";
-import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
   return (
