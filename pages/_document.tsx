@@ -7,7 +7,19 @@ export default class Document extends NextDocument {
         <Head>
           <meta charSet="UTF-8" />
           <meta property="og:site_name" content="AIL MO LETI CEP" />
+          <meta
+            property="og:description"
+            content="アイル共和国文化省の公式ホームページです。"
+          />
+          <meta
+            property="og:image"
+            content="/favicon/android-chrome-192x192.png"
+          />
           <meta name="twitter:card" content="summary" />
+          <meta
+            name="description"
+            content="アイル共和国文化省の公式ホームページです。"
+          />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
