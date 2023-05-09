@@ -15,19 +15,19 @@ export const Header: React.FC = () => {
           style={{ marginRight: "10px" }}
         />
         <div style={{ marginLeft: "0px" }}>
-          <div lang="ja" style={{ fontSize: "125%" }}>
-            アイル共和国文化省
-          </div>
-          <div lang="x-pemecepe" style={{ fontSize: "154%" }}>
-            AIL MO LETI CEP
-          </div>
+          <Link href="/" className="no-underline">
+            <div lang="ja" style={{ fontSize: "125%" }}>
+              アイル共和国文化省
+            </div>
+            <div lang="x-pemecepe" style={{ fontSize: "154%" }}>
+              AIL MO LETI CEP
+            </div>
+          </Link>
         </div>
       </LogoContainer>
+
       <hr />
       <Tab lang="ja">
-        <TabChild>
-          <Link href="/">トップ</Link>
-        </TabChild>
         <TabChild>
           <Link href="/abelip">各種展示</Link>
         </TabChild>
@@ -35,10 +35,13 @@ export const Header: React.FC = () => {
           <Link href="/lin-leti-lujot">燐帝字母</Link>
         </TabChild>
         <TabChild>
-          <Link href="/kante-kije">文献読解</Link>
+          <Link href="/kante-kije">文献紹介</Link>
         </TabChild>
         <TabChild>
-          <Link href="/lijukulante">教材紹介</Link>
+          <Link href="/liju-tude-lukup">言語講座</Link>
+        </TabChild>
+        <TabChild>
+          <Link href="/xactleti">各種案内</Link>
         </TabChild>
       </Tab>
       <hr />
@@ -71,14 +74,14 @@ const TabChild = styled.li`
   border-right: 2px groove #aaa;
 
   &:hover {
-    color: #005242;
+    color: #227464;
   }
 
   &:last-child {
     border: none;
 
     :hover {
-      color: #005242;
+      color: #227464;
     }
   }
 
