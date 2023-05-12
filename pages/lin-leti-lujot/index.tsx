@@ -1,23 +1,26 @@
 import Link from "next/link";
 import Head from "next/head";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
 import { Title, Description } from "src/components/common";
+import { PostOGP } from "src/components/common/PostOGP";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
+  usePageTitle("燐帝字母");
   return (
     <div>
       <Head>
-        <title>燐帝字母 | AIL MO LETI CEP</title>
+        <PostOGP
+          title="燐帝字母"
+          type="article"
+          url="https://ail-mo-leti-cep.github.io/lin-leti-lujot"
+          description="アイル共和国をはじめとしてファイクレオネ世界で広く使われる文字である燐帝字母について説明しています。"
+        />
       </Head>
-      <Header />
-
       <main>
         <Title>燐帝字母</Title>
         <Description>
-          このページでは、アイル共和国をはじめとしてファイクレオネ世界で広く使われる文字である燐帝字母について説明しています。
+          アイル共和国をはじめとしてファイクレオネ世界で広く使われる文字である燐帝字母について説明しています。
         </Description>
-
         <ul>
           <li>
             <Link href="https://raw.githubusercontent.com/AIL-MO-LETI-CEP/ail-mo-leti-cep.github.io/master/lijuit_kije.pdf">
@@ -26,8 +29,6 @@ const Index = () => {
           </li>
         </ul>
       </main>
-
-      <Footer />
     </div>
   );
 };

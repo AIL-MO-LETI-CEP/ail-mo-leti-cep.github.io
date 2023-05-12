@@ -12,7 +12,7 @@ type Props = {
 
 export const PostOGP: FC<Props> = ({ title, type, description, url }) => (
   <Head>
-    <meta property="og:title" content={`${title} - LipersInSlums Wiki`} />
+    <meta property="og:title" content={`${title} | AIL MO LETI CEP`} />
     <meta property="og:type" content={type} />
     <meta property="og:url" content={url} />
     <meta property="og:description" content={description} />

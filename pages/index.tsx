@@ -1,21 +1,21 @@
 import Head from "next/head";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
 import { Description } from "src/components/common";
 
 const Index = () => {
   return (
     <div>
       <Head>
-        <title>AIL MO LETI CEP</title>
+        <meta property="og:title" content="AIL MO LETI CEP" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ail-mo-leti-cep.github.io/" />
+        <meta
+          property="og:description"
+          content="アイル共和国文化省の公式ホームページです。"
+        />
       </Head>
-      <Header />
-
       <main>
         <Description>アイル共和国へようこそ！</Description>
       </main>
-
-      <Footer />
     </div>
   );
 };

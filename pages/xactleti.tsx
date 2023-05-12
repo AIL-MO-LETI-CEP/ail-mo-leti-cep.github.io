@@ -1,21 +1,26 @@
 import Link from "next/link";
 import Head from "next/head";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
 import { Title, Description } from "src/components/common";
 import styled from "@emotion/styled";
+import { PostOGP } from "src/components/common/PostOGP";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
+  usePageTitle("各種案内");
   return (
     <div>
       <Head>
-        <title>各種案内 | AIL MO LETI CEP</title>
+        <PostOGP
+          title="各種案内"
+          type="article"
+          url="https://ail-mo-leti-cep.github.io/xactleti"
+          description="私たち自身に関する情報、アイル共和国における安全や旅行といった情報を提供しています。"
+        />
       </Head>
-      <Header />
       <main>
         <Title>各種案内</Title>
         <Description>
-          私たち自身に関する情報、アイル共和国における安全や旅行といった情報をこちらで提供しています。
+          私たち自身に関する情報、アイル共和国における安全や旅行といった情報を提供しています。
           <br />
           外部リンクや広報処の近況などもこちらから見ることができます。
         </Description>
@@ -90,11 +95,10 @@ const Index = () => {
         </InfoboxContainer>
         <hr />
         <h2>広報処近況</h2>
-        <Link href="">広報処近況はこちら</Link>
+        <Link href="/blogs">広報処近況はこちら</Link>
         <h2>外部リンク</h2>
         <Link href="/tec-leti-julo">外部リンクはこちら</Link>
       </main>
-      <Footer />
     </div>
   );
 };

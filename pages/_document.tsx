@@ -8,12 +8,8 @@ export default class Document extends NextDocument {
           <meta charSet="UTF-8" />
           <meta property="og:site_name" content="AIL MO LETI CEP" />
           <meta
-            property="og:description"
-            content="アイル共和国文化省の公式ホームページです。"
-          />
-          <meta
             property="og:image"
-            content="/favicon/android-chrome-192x192.png"
+            content="https://ail-mo-leti-cep.github.io/favicon/android-chrome-192x192.png"
           />
           <meta name="twitter:card" content="summary" />
           <meta

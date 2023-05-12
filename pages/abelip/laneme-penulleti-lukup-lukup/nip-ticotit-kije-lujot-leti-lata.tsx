@@ -1,15 +1,21 @@
 import Head from "next/head";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
+
 import { Title } from "src/components/common";
+import { PostOGP } from "src/components/common/PostOGP";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
+  usePageTitle("無識字人");
   return (
     <div>
       <Head>
-        <title>無識字人 | AIL MO LETI CEP</title>
+        <PostOGP
+          title="無識字人"
+          type="article"
+          url="https://ail-mo-leti-cep.github.io/abelip/laneme-penulleti-lukup-lukup/alec-lin-e-nace-jo-toxa"
+          description="日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。"
+        />
       </Head>
-      <Header />
 
       <main>
         <div>
@@ -253,10 +259,7 @@ const Index = () => {
           </div>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 };
-
 export default Index;

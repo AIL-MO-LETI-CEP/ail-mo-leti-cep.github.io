@@ -1,16 +1,21 @@
 import Link from "next/link";
 import Head from "next/head";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
 import { Title, Description } from "src/components/common";
+import { PostOGP } from "src/components/common/PostOGP";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
+  usePageTitle("文献紹介");
   return (
     <div>
       <Head>
-        <title>文献紹介 | AIL MO LETI CEP</title>
+        <PostOGP
+          title="文献紹介"
+          type="article"
+          url="https://ail-mo-leti-cep.github.io/abelip/kante-kije"
+          description="このページでは、各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介しています。"
+        />
       </Head>
-      <Header />
 
       <main>
         <Title>文献紹介</Title>
@@ -173,8 +178,6 @@ const Index = () => {
           </li>
         </ul>
       </main>
-
-      <Footer />
     </div>
   );
 };
