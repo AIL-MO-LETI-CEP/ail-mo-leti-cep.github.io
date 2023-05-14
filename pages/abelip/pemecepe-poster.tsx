@@ -1,7 +1,6 @@
-import Image from "next/image";
-import Head from "next/head";
 import styled from "@emotion/styled";
-
+import Head from "next/head";
+import Image from "next/image";
 import { Title, Description } from "src/components/common";
 import { PostOGP } from "src/components/common/PostOGP";
 import usePageTitle from "src/hooks/usePageTitle";

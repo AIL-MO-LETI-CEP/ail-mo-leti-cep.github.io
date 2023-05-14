@@ -1,8 +1,7 @@
 import Head from "next/head";
 import { Title, Description } from "src/components/common";
-import { PostOGP } from "src/components/common/PostOGP";
-import usePageTitle from "src/hooks/usePageTitle";
 import { ExternalLinkList } from "src/components/common/ExternalLinkList";
+import { PostOGP } from "src/components/common/PostOGP";
 import {
   pmcfBooksLinkData,
   praigeBookLinkData,
@@ -11,7 +10,8 @@ import {
   cetkaikBookLinkData,
   nincetkaikBookLinkData,
   otherBookLinkData,
-} from "public/linkdata/kante-kije";
+} from "src/data/linkdata/kante-kije";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
   usePageTitle("文献紹介");

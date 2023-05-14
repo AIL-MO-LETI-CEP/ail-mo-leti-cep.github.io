@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Head from "next/head";
-import { Title, Description } from "src/components/common";
 import styled from "@emotion/styled";
+import Head from "next/head";
+import Link from "next/link";
+import { Title, Description } from "src/components/common";
 import { PostOGP } from "src/components/common/PostOGP";
 import usePageTitle from "src/hooks/usePageTitle";
 
@@ -95,7 +95,7 @@ const Index = () => {
         </InfoboxContainer>
         <hr />
         <h2>広報処近況</h2>
-        <Link href="/blogs">広報処近況はこちら</Link>
+        <Link href="/blog">広報処近況はこちら</Link>
         <h2>外部リンク</h2>
         <Link href="/tec-leti-julo">外部リンクはこちら</Link>
       </main>

@@ -1,6 +1,5 @@
-import Link from "next/link";
 import Head from "next/head";
-
+import Link from "next/link";
 import { Title, Description } from "src/components/common";
 import { PostOGP } from "src/components/common/PostOGP";
 import usePageTitle from "src/hooks/usePageTitle";
