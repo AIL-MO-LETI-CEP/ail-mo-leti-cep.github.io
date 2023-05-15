@@ -32,13 +32,7 @@ export default Index;
 
 export const getStaticProps = async () => {
   const posts = await getAllPosts();
-  // なぜかapi.ts内でのsortができないので、ここでsortする(awaitが悪さをしている？)
-  posts.sort((post1, post2) => {
-    return (
-      Number(post1.date.replaceAll("/", "")) -
-      Number(post2.date.replaceAll("/", ""))
-    );
-  });
+
   return {
     props: { posts },
   };

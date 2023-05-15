@@ -12,12 +12,19 @@ export async function getAllPosts() {
   const files = await Promise.all(
     fileNames.map((name) => fs.readFile(join(postsDirectory, name), "utf-8"))
   );
-  const metaData = files.map((content) => matter(content));
+  const parsedFileContents = files.map((file) => matter(file));
 
-  return metaData.map((data, index) => ({
-    path: parse(fileNames[index]).name,
-    ...parseMatter(data),
-  }));
+  return parsedFileContents
+    .map((data, index) => ({
+      path: parse(fileNames[index]).name,
+      ...parseMatter(data),
+    }))
+    .sort((post1, post2) => {
+      return (
+        Number(post1.date.replaceAll("/", "")) -
+        Number(post2.date.replaceAll("/", ""))
+      );
+    });
 }
 
 export type Post = Awaited<ReturnType<typeof getAllPosts>>[0];

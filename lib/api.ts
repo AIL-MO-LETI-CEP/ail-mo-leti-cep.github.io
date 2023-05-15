@@ -38,8 +38,8 @@ export const getPostBySlug: GetPostBySlug = (slug, fields = []) => {
   return items;
 };
 
-type GetAllPosts = (field: string[]) => Promise<Items[]>;
-export const getAllPosts: GetAllPosts = async (fields = []) => {
+type GetAllPosts = (field: string[]) => Items[];
+export const getAllPosts: GetAllPosts = (fields = []) => {
   const slugs = getPostSlugs();
   const posts = slugs.map((slug) => getPostBySlug(slug, fields));
   return posts;
