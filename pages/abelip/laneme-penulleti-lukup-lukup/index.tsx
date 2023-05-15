@@ -1,16 +1,21 @@
-import Link from "next/link";
 import Head from "next/head";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
+import Link from "next/link";
 import { Title, Description } from "src/components/common";
+import { PostOGP } from "src/components/common/PostOGP";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
+  usePageTitle("『羅古論』展示");
   return (
     <div>
       <Head>
-        <title>『羅古論』展示 | AIL MO LETI CEP</title>
+        <PostOGP
+          title="『羅古論』展示"
+          type="article"
+          url="https://ail-mo-leti-cep.github.io/abelip/laneme-penulleti-lukup-lukup/index"
+          description="日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。"
+        />
       </Head>
-      <Header />
 
       <main>
         <div>
@@ -102,10 +107,7 @@ const Index = () => {
           </ul>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 };
-
 export default Index;

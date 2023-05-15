@@ -1,18 +1,23 @@
-import Image from "next/image";
-import Head from "next/head";
-import Link from "next/link";
 import styled from "@emotion/styled";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 import { IframeContainer } from "src/components/common";
+import { PostOGP } from "src/components/common/PostOGP";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
+  usePageTitle("京都大学11月祭特設サイト");
   return (
     <div>
       <Head>
-        <title>京都大学11月祭特設サイト | AIL MO LETI CEP</title>
+        <PostOGP
+          title="京都大学11月祭特設サイト"
+          type="article"
+          url="https://ail-mo-leti-cep.github.io/abelip"
+          description="ご存じアイル共和国の架空伝統ゲーム、「机戦」がNFに初上陸！机戦にまつわるさまざまな史料・動画・背景などを紹介します！すべての画像にリンクが張られているのでぜひジャンプしてみてください！"
+        />
       </Head>
-      <Header />
 
       <main>
         <HeadContainer>
@@ -353,12 +358,9 @@ const Index = () => {
           </Subsection>
         </section>
       </main>
-
-      <Footer />
     </div>
   );
 };
-
 export default Index;
 
 const HeadContainer = styled.div`

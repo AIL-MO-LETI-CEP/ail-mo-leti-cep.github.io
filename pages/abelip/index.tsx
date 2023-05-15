@@ -1,22 +1,27 @@
-import Link from "next/link";
 import Head from "next/head";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
+import Link from "next/link";
 import { Title, Description } from "src/components/common";
+import { PostOGP } from "src/components/common/PostOGP";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
+  usePageTitle("各種展示");
   return (
     <div>
       <Head>
-        <title>各種展示 | AIL MO LETI CEP</title>
+        <PostOGP
+          title="各種展示"
+          type="article"
+          url="https://ail-mo-leti-cep.github.io/abelip"
+          description="文化省広報処のサイトで行われている展示ページを提供する他、過去に各所で行われた展示のアーカイブページを提供しています。"
+        />
       </Head>
-      <Header />
 
       <main>
         <div>
           <Title>各種展示</Title>
           <Description>
-            このページでは、文化省広報処のサイトで行われている展示ページを提供する他、過去に各所で行われた展示のアーカイブページを提供しています。
+            文化省広報処のサイトで行われている展示ページを提供する他、過去に各所で行われた展示のアーカイブページを提供しています。
           </Description>
         </div>
         <div>
@@ -40,10 +45,7 @@ const Index = () => {
           </ul>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 };
-
 export default Index;

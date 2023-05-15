@@ -1,6 +1,5 @@
-import React from "react";
-import Link from "next/link";
 import styled from "@emotion/styled";
+import Link from "next/link";
 
 export const Footer: React.FC = () => {
   return (

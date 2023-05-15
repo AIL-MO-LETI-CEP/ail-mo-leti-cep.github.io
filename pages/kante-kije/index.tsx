@@ -1,33 +1,56 @@
-import Link from "next/link";
 import Head from "next/head";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
 import { Title, Description } from "src/components/common";
+import { ExternalLinkList } from "src/components/common/ExternalLinkList";
+import { PostOGP } from "src/components/common/PostOGP";
+import {
+  pmcfBooksLinkData,
+  praigeBookLinkData,
+  takanBookLinkData,
+  bhaatBookLinkData,
+  cetkaikBookLinkData,
+  nincetkaikBookLinkData,
+  otherBookLinkData,
+} from "src/data/linkdata/kante-kije";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
+  usePageTitle("文献紹介");
   return (
     <div>
       <Head>
-        <title>文献読解 | AIL MO LETI CEP</title>
+        <PostOGP
+          title="文献紹介"
+          type="article"
+          url="https://ail-mo-leti-cep.github.io/abelip/kante-kije"
+          description="各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介します。"
+        />
       </Head>
-      <Header />
 
       <main>
-        <Title>文献読解</Title>
+        <Title>文献紹介</Title>
         <Description>
-          このページでは、各種文献の読解ログや資料へのリンクを紹介しています。
+          各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介します。
         </Description>
 
-        <ul>
-          <li>
-            <Link href="https://docs.google.com/document/d/1yJLvWS_bQC3_EDToE5jUp0oDmNB_U6FRadsm0d97Cis">
-              『アイル統一セットカイクの書（藍国統一机戦書）を読む』
-            </Link>
-          </li>
-        </ul>
+        <h2>言語教材</h2>
+        <h3>東島通商語</h3>
+        <ExternalLinkList linkDataList={pmcfBooksLinkData} />
+        <h3>パイグ語</h3>
+        <ExternalLinkList linkDataList={praigeBookLinkData} />
+        <h3>タカン語</h3>
+        <ExternalLinkList linkDataList={takanBookLinkData} />
+        <h3>バート語</h3>
+        <ExternalLinkList linkDataList={bhaatBookLinkData} />
+        <hr />
+        <h2>伝統遊戯</h2>
+        <h3>机戦</h3>
+        <ExternalLinkList linkDataList={cetkaikBookLinkData} />
+        <h3>紙机戦</h3>
+        <ExternalLinkList linkDataList={nincetkaikBookLinkData} />
+        <hr />
+        <h2>その他資料</h2>
+        <ExternalLinkList linkDataList={otherBookLinkData} />
       </main>
-
-      <Footer />
     </div>
   );
 };

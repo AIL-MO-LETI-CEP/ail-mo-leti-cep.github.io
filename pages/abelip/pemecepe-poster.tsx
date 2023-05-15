@@ -1,17 +1,22 @@
-import Image from "next/image";
-import Head from "next/head";
 import styled from "@emotion/styled";
-import { Header } from "src/components/header";
-import { Footer } from "src/components/footer";
+import Head from "next/head";
+import Image from "next/image";
 import { Title, Description } from "src/components/common";
+import { PostOGP } from "src/components/common/PostOGP";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
+  usePageTitle("ポスター展示");
   return (
     <div>
       <Head>
-        <title>ポスター展示 | AIL MO LETI CEP</title>
+        <PostOGP
+          title="ポスター展示"
+          type="article"
+          url="https://ail-mo-leti-cep.github.io/abelip"
+          description="アイルおよびPMCFを中心に、ポスターや本の表紙などの資料を展示する。"
+        />
       </Head>
-      <Header />
 
       <Title>ポスター展示</Title>
       <Description>
@@ -258,12 +263,9 @@ const Index = () => {
           </PosterData>
         </PosterInfoContainer>
       </PosterContainer>
-
-      <Footer />
     </div>
   );
 };
-
 export default Index;
 
 const PosterContainer = styled.article`
