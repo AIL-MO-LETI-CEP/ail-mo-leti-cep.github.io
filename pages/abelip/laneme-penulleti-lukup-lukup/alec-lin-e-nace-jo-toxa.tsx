@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import { Title } from "src/components/common";
 import { PostOGP } from "src/components/common/PostOGP";
 import usePageTitle from "src/hooks/usePageTitle";
