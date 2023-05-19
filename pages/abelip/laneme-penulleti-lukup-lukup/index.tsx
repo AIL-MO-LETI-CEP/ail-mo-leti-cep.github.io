@@ -12,7 +12,7 @@ const Index = () => {
         <PostOGP
           title="『羅古論』展示"
           type="article"
-          url="https://ail-mo-leti-cep.github.io/abelip/laneme-penulleti-lukup-lukup/index"
+          url="https://ail-mo-leti-cep.github.io/abelip/laneme-penulleti-lukup-lukup/"
           description="日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。"
         />
       </Head>

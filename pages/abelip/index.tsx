@@ -32,6 +32,9 @@ const Index = () => {
                 『羅古論』展示
               </Link>
             </li>
+            <li>
+              <Link href="lin-leti-lujot/">燐帝字母</Link>
+            </li>
           </ul>
 
           <h3>過去のアーカイブ</h3>
