@@ -1,9 +1,9 @@
 import Head from "next/head";
-import PostItemList from "src/pages/PostItemList";
 import { getAllPosts } from "pages/api/posts";
 import { Title, Description } from "src/components/common";
 import { PostOGP } from "src/components/common/PostOGP";
 import usePageTitle from "src/hooks/usePageTitle";
+import PostItemList from "src/pages/blog/PostItemList";
 
 type Props = Awaited<ReturnType<typeof getStaticProps>>["props"];
 
@@ -22,7 +22,7 @@ const Index = ({ posts }: Props) => {
       <main>
         <Title>広報処近況ブログ</Title>
         <Description></Description>
-        <PostItemList posts={posts}></PostItemList>
+        <PostItemList posts={posts} />
       </main>
     </div>
   );
