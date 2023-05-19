@@ -32,7 +32,7 @@ const ExternalLink: FC<LinkData> = ({ title, url, description = [] }) => {
   if (description.length === 0) {
     return (
       <li>
-        <Link href={url} target="_blank" rel="noopener noreferrer">
+        <Link key={url} href={url} target="_blank" rel="noopener noreferrer">
           {title}
         </Link>
       </li>

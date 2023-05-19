@@ -1,4 +1,4 @@
-# 開発に参加するには
+## 開発に参加するには
 1. かならずtopic branchを切って作業する。
 - checkoutを忘れないために`git checkout -b [branch名]`で切ることを推奨。
 - branch名は`[type]/[name]`にする。
@@ -22,13 +22,22 @@
     | pages | （記事等の）ドキュメンテーション |
 
 - commitすることでGit hooksによってpre-commitが回り、lintがかかった状態のファイルがcommitされる。
+  - ちなみにVSCodeのSource Control機能でのcommitだとなぜかhooksに引っかからずfailするので、`ctrl+J`からcommitすること。
+    - 変更のstageとかは問題ないので使って大丈夫。あくまで`git commit`をCLIからやる必要があるらしい。
 
 3. 問題なければpushしてPull Requestを作成。
 - 別branchへのpushを避けるために`git push origin HEAD`でのpushを推奨。
 - PRが出されるとCIが回る。
-    - CIがfailedだった場合は手元で`yarn build`して原因を探し、fixを追加でcommit & pushすればよい。
+    - ~~CIがfailedだった場合は手元で`yarn build`して原因を探し、fixを追加でcommit & pushすればよい。~~
+    - 手元で`yarn build`して通るのを確認してからpushする方が当然望ましい。
 
 4. PRをmasterにmergeし、CIにGitHub Pagesへdeployしてもらう。
 
-# 記事を書くには
-**記事をdeployできる仕組みができたら書きます**
+## 記事を書くには
+### 広報処近況ブログの書き方
+基本的な流れは[開発に参加するには](#開発に参加するには)と同じ。
+- 記事はmarkdownでの記述を基本とし、内部ではHTMLでの記述を認めている。
+- markdownファイルは`_posts`フォルダに置くこと。
+
+### 羅古論へのデータの足し方
+`src/data/lanerme-folklore.ts`の配列をいじると`pages/abelip/lanerme-penulleti-lukup-lukup/[pid].tsx`でいい感じにページが吐かれる。

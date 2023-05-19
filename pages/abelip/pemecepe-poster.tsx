@@ -13,7 +13,7 @@ const Index = () => {
         <PostOGP
           title="ポスター展示"
           type="article"
-          url="https://ail-mo-leti-cep.github.io/abelip"
+          url="https://ail-mo-leti-cep.github.io/abelip/pemecepe-poster"
           description="アイルおよびPMCFを中心に、ポスターや本の表紙などの資料を展示する。"
         />
       </Head>

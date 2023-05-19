@@ -23,8 +23,8 @@ const Index = () => {
         </Description>
         <ul>
           <li>
-            <Link href="https://raw.githubusercontent.com/AIL-MO-LETI-CEP/ail-mo-leti-cep.github.io/master/lijuit_kije.pdf">
-              燐字まとめ入門（PDF）
+            <Link href="https://yasusho.github.io/linmarn_table_pdf/84%E5%AD%97%E3%81%A7%E3%82%89%E3%81%8F%E3%82%89%E3%81%8F%E7%87%90%E5%AD%97%E5%85%A5%E9%96%80.pdf">
+              『84字でらくらく燐字入門』（PDF）
             </Link>
           </li>
         </ul>
