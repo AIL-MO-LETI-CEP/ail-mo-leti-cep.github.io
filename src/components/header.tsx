@@ -31,16 +31,13 @@ export const Header: React.FC = () => {
           <Link href="/abelip">各種展示</Link>
         </TabChild>
         <TabChild>
-          <Link href="/lin-leti-lujot">燐帝字母</Link>
-        </TabChild>
-        <TabChild>
           <Link href="/kante-kije">文献紹介</Link>
         </TabChild>
         <TabChild>
           <Link href="/liju-tude-lukup">言語講座</Link>
         </TabChild>
         <TabChild>
-          <Link href="/xactleti">各種案内</Link>
+          <Link href="/blog">近況報告</Link>
         </TabChild>
       </Tab>
       <hr />
