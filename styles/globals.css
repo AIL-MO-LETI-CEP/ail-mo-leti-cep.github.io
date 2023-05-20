@@ -60,11 +60,6 @@ a:lang(x-lineparine) {
     display: flex;
 }
 
-img.glyph {
-    filter: brightness(65%) contrast(500%);
-    vertical-align: middle;
-}
-
 .header-genres-container>ul {
     display: flex;
     justify-content: space-between;
