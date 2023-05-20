@@ -23,7 +23,7 @@
 
 - commitすることでGit hooksによってpre-commitが回り、lintがかかった状態のファイルがcommitされる。
   - ちなみにVSCodeのSource Control機能でのcommitだとなぜかhooksに引っかからずfailするので、`ctrl+J`からcommitすること。
-    - 変更のstageとかは問題ないので使って大丈夫。あくまで`git commit`をCLIからやる必要があるらしい。
+    - 変更のstageとかは問題ないので使って大丈夫。あくまで`git commit`をCUIからやる必要があるらしい。
 
 3. 問題なければpushしてPull Requestを作成。
 - 別branchへのpushを避けるために`git push origin HEAD`でのpushを推奨。
