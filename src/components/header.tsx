@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
             <div lang="ja" style={{ fontSize: "125%" }}>
               アイル共和国文化省
             </div>
-            <div lang="x-pemecepe" style={{ fontSize: "154%" }}>
+            <div lang="x-pektak" style={{ fontSize: "154%" }}>
               AIL MO LETI CEP
             </div>
           </Link>
