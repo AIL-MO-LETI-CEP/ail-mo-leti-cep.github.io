@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
       <Copyright>
         Copyright ©{" "}
         <span
-          lang="x-pemecepe"
+          lang="x-pektak"
           style={{ fontSize: "120%", textDecoration: "underline" }}
         >
           <Link href="/">AIL MO LETI CEP</Link>

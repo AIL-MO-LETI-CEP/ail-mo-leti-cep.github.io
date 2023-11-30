@@ -32,6 +32,11 @@ a.no-underline {
 }
 
 @font-face {
+    font-family: 'ycaxen-light';
+    src: url('https://meloviliju.github.io/ycaxen/light/ycaxen-light.woff') format('woff');
+}
+
+@font-face {
     font-family: 'rounded';
     src: url('https://yasusho.github.io/linmarn_font_project/fonts/rounded/linzklar_rounded.woff') format('woff');
 }
@@ -47,8 +52,14 @@ a:lang(x-lineparine) {
     font-weight: bold;
 }
 
-:lang(x-pemecepe) {
+:lang(x-pektak) {
     font-family: 'pektak';
+}
+
+:lang(x-ycaxen-light) {
+    font-family: 'ycaxen-light';
+    font-size: 100%;
+    line-height: 1.2em;
 }
 
 :lang(x-linmarn) {
