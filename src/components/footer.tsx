@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
         >
           <Link href="/">AIL MO LETI CEP</Link>
         </span>{" "}
-        2021
+        2021-2023
       </Copyright>
     </footer>
   );
