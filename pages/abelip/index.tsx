@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Title, Description } from "src/components/common";
+import { PageTitle, PageDescription } from "src/components/common";
 import { PostOGP } from "src/components/common/PostOGP";
 import usePageTitle from "src/hooks/usePageTitle";
 
@@ -8,21 +8,22 @@ const Index = () => {
   usePageTitle("各種展示");
   return (
     <div>
+      <PostOGP
+        title="各種展示"
+        type="article"
+        url="https://ail-mo-leti-cep.github.io/abelip"
+        description="文化省広報処のサイトで行われている展示ページを提供する他、過去に各所で行われた展示のアーカイブページを提供しています。"
+      />
       <Head>
-        <PostOGP
-          title="各種展示"
-          type="article"
-          url="https://ail-mo-leti-cep.github.io/abelip"
-          description="文化省広報処のサイトで行われている展示ページを提供する他、過去に各所で行われた展示のアーカイブページを提供しています。"
-        />
+        <></>
       </Head>
 
       <main>
         <div>
-          <Title>各種展示</Title>
-          <Description>
+          <PageTitle>各種展示</PageTitle>
+          <PageDescription>
             文化省広報処のサイトで行われている展示ページを提供する他、過去に各所で行われた展示のアーカイブページを提供しています。
-          </Description>
+          </PageDescription>
         </div>
         <div>
           <h3>常設展</h3>

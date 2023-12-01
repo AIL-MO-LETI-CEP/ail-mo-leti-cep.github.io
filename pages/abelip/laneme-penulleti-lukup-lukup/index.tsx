@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Title, Description } from "src/components/common";
+import { PageTitle, PageDescription } from "src/components/common";
 import { PostOGP } from "src/components/common/PostOGP";
 import {
   lanermeFolkloreData,
@@ -12,21 +12,22 @@ const Index = () => {
   usePageTitle("『羅古論』展示");
   return (
     <div>
+      <PostOGP
+        title="『羅古論』展示"
+        type="article"
+        url="https://ail-mo-leti-cep.github.io/abelip/laneme-penulleti-lukup-lukup/"
+        description="日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。"
+      />
       <Head>
-        <PostOGP
-          title="『羅古論』展示"
-          type="article"
-          url="https://ail-mo-leti-cep.github.io/abelip/laneme-penulleti-lukup-lukup/"
-          description="日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。"
-        />
+        <></>
       </Head>
 
       <main>
         <div>
-          <Title>『羅古論』展示</Title>
-          <Description>
+          <PageTitle>『羅古論』展示</PageTitle>
+          <PageDescription>
             日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。
-          </Description>
+          </PageDescription>
         </div>
         <div>
           <h2>羅古論とは</h2>

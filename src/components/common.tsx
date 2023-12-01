@@ -1,12 +1,12 @@
 import styled from "@emotion/styled";
 
-export const Title = styled.div`
+export const PageTitle = styled.div`
   margin-top: 40px;
   text-align: center;
   font-size: x-large;
 `;
 
-export const Description = styled.div`
+export const PageDescription = styled.div`
   text-align: center;
 `;
 

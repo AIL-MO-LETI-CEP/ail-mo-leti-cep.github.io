@@ -1,6 +1,6 @@
 ---
 title: "『筆兵無傾 Advent Calendar 2023』に寄せて"
-excerpt: "日本机戦連盟の依頼により執筆された『筆兵無傾 Advent Calendar 2023』への祝辞です"
+excerpt: "日本机戦連盟の依頼により執筆された『筆兵無傾 Advent Calendar 2023』への祝辞です。"
 date: "2023/12/01"
 author:
   name: skarsna.meloviliju

@@ -7,7 +7,7 @@ import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import rehypeSanitize from "rehype-sanitize";
 import remarkGfm from "remark-gfm";
-import { Title } from "src/components/common";
+import { PageTitle } from "src/components/common";
 import { PostOGP } from "src/components/common/PostOGP";
 import {
   TitlePMCF,
@@ -53,7 +53,7 @@ const Page: NextPage<Props> = ({ page }: Props) => {
           />
           <main>
             <div>
-              <Title>{page.title}</Title>
+              <PageTitle>{page.title}</PageTitle>
               {arrayToMarkdown(page.description)}
             </div>
             <h2>原文</h2>
