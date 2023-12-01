@@ -10,13 +10,14 @@ const Index = () => {
   usePageTitle("京都大学11月祭特設サイト");
   return (
     <div>
+      <PostOGP
+        title="京都大学11月祭特設サイト"
+        type="article"
+        url="https://ail-mo-leti-cep.github.io/abelip/nf2022"
+        description="ご存じアイル共和国の架空伝統ゲーム、「机戦」がNFに初上陸！机戦にまつわるさまざまな史料・動画・背景などを紹介します！すべての画像にリンクが張られているのでぜひジャンプしてみてください！"
+      />
       <Head>
-        <PostOGP
-          title="京都大学11月祭特設サイト"
-          type="article"
-          url="https://ail-mo-leti-cep.github.io/abelip/nf2022"
-          description="ご存じアイル共和国の架空伝統ゲーム、「机戦」がNFに初上陸！机戦にまつわるさまざまな史料・動画・背景などを紹介します！すべての画像にリンクが張られているのでぜひジャンプしてみてください！"
-        />
+        <></>
       </Head>
 
       <main>

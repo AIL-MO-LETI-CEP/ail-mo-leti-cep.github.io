@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import Head from "next/head";
 import Image from "next/image";
-import { Title, Description } from "src/components/common";
+import { PageTitle, PageDescription } from "src/components/common";
 import { PostOGP } from "src/components/common/PostOGP";
 import usePageTitle from "src/hooks/usePageTitle";
 
@@ -9,19 +9,20 @@ const Index = () => {
   usePageTitle("ポスター展示");
   return (
     <div>
+      <PostOGP
+        title="ポスター展示"
+        type="article"
+        url="https://ail-mo-leti-cep.github.io/abelip/pemecepe-poster"
+        description="アイルおよびPMCFを中心に、ポスターや本の表紙などの資料を展示する。"
+      />
       <Head>
-        <PostOGP
-          title="ポスター展示"
-          type="article"
-          url="https://ail-mo-leti-cep.github.io/abelip/pemecepe-poster"
-          description="アイルおよびPMCFを中心に、ポスターや本の表紙などの資料を展示する。"
-        />
+        <></>
       </Head>
 
-      <Title>ポスター展示</Title>
-      <Description>
+      <PageTitle>ポスター展示</PageTitle>
+      <PageDescription>
         アイルおよびPMCFを中心に、ポスターや本の表紙などの資料を展示する。
-      </Description>
+      </PageDescription>
 
       <PosterContainer>
         <PosterImageContainer>

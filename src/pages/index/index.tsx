@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "@emotion/styled";
 import Link from "next/link";
-import { Title } from "src/components/common";
+import { PageTitle } from "src/components/common";
 
 const IndexPage: React.FC = () => {
   return (
     <>
-      <Title>アイル共和国へようこそ！</Title>
+      <PageTitle>アイル共和国へようこそ！</PageTitle>
       <InfoboxContainer>
         <Infobox>
           <h2>基本情報</h2>

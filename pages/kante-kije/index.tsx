@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Title, Description } from "src/components/common";
+import { PageTitle, PageDescription } from "src/components/common";
 import { ExternalLinkList } from "src/components/common/ExternalLinkList";
 import { PostOGP } from "src/components/common/PostOGP";
 import {
@@ -17,20 +17,21 @@ const Index = () => {
   usePageTitle("文献紹介");
   return (
     <div>
+      <PostOGP
+        title="文献紹介"
+        type="article"
+        url="https://ail-mo-leti-cep.github.io/abelip/kante-kije"
+        description="各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介します。"
+      />
       <Head>
-        <PostOGP
-          title="文献紹介"
-          type="article"
-          url="https://ail-mo-leti-cep.github.io/abelip/kante-kije"
-          description="各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介します。"
-        />
+        <></>
       </Head>
 
       <main>
-        <Title>文献紹介</Title>
-        <Description>
+        <PageTitle>文献紹介</PageTitle>
+        <PageDescription>
           各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介します。
-        </Description>
+        </PageDescription>
 
         <h2>言語教材</h2>
         <h3>東島通商語</h3>
