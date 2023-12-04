@@ -17,8 +17,8 @@ author:
 
 （訳：日本机戦連盟）
 
-# <span lang="x-ycaxen-light">JO "</span><span lang="x-linmarn">筆兵無傾</span><span lang="x-ycaxen-light"> ADBENT KALENDA"</span>
-<div lang="x-ycaxen-light">
+# <span lang="x-ycaxen-medium">JO "</span><span lang="x-linmarn">筆兵無傾</span><span lang="x-ycaxen-medium"> ADBENT KALENDA"</span>
+<div lang="x-ycaxen-medium">
 
 JO NIPPON MOL AUC, CALA! MI E AIL MO LETI CEP LETI ECKIJACIL LETI POLTO LETI LILATA LETI JEGIN GATU XADOCAMMA.
 
