@@ -8,7 +8,7 @@ jobs:
         os:
           - ubuntu-latest
         plan:
-          - node-version: "16.16.0"
+          - node-version: "21.2.0"
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3

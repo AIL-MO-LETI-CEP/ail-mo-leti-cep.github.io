@@ -1,4 +1,4 @@
-export const pmcfBooksLinkData = [
+export const pmcpBooksLinkData = [
   {
     title: "『東島通商語入門』",
     url: "https://docs.google.com/document/d/1G-xhtlGl-TGrFH6kHixg5-LRZ6gBGifSe3NHLcFk8Ss",
@@ -65,9 +65,14 @@ export const takanBookLinkData = [
   },
   {
     title: "タカン語辞書",
-    url: "http://jurliyuuri.com/json-reader",
+    url: "http://jurliyuuri.com/json-reader/?url=http://jurliyuuri.com/takan_cen/%E7%9A%87%E8%A8%80%E9%9B%86%E6%9B%B8.json",
+    description: [],
+  },
+  {
+    title: "『タカン語あれこれ』",
+    url: "https://docs.google.com/presentation/d/1RMkXWwkNmT4kshQnLbrd0TBJ5mTIZZuW_zkbbPaC8m4/edit",
     description: [
-      "「takan」ボタンを押すことでタカン語の見出し語が読み込まれます。検索にはブラウザのページ内検索を使いましょう。",
+      "タカン語の歴史的な表記法の遷移や音韻変化などを簡単に解説してくれるスライド。",
     ],
   },
 ];
@@ -86,6 +91,11 @@ export const bhaatBookLinkData = [
   {
     title: "『二百題で学ぶバート語基礎』",
     url: "https://docs.google.com/document/d/1jKy_4ZLQD-3OIVOl4dtY2gcvH0fYOr40jwfgaPQ53Xo",
+    description: [],
+  },
+  {
+    title: "バート語辞書",
+    url: "http://jurliyuuri.com/json-reader/?url=http://jurliyuuri.com/bhaataan/bhat.json",
     description: [],
   },
 ];
@@ -131,12 +141,5 @@ export const otherBookLinkData = [
     title: "『パイグ語検定 リスニングテスト音声』",
     url: "https://www.youtube.com/watch?v=lETRnHmJgAQ",
     description: [],
-  },
-  {
-    title: "『タカン語あれこれ』",
-    url: "https://docs.google.com/presentation/d/1RMkXWwkNmT4kshQnLbrd0TBJ5mTIZZuW_zkbbPaC8m4/edit",
-    description: [
-      "タカン語の歴史的な表記法の遷移や音韻変化などを簡単に解説してくれるスライド。",
-    ],
   },
 ];
