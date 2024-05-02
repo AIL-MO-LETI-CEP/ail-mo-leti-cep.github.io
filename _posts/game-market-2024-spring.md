@@ -20,20 +20,20 @@ author:
 
 # <span lang="x-ycaxen-medium">JO KALETI ATIME LETI "GEMU MAKETO" LUCUCLETI</span>
 <div lang="x-ycaxen-medium">
-JO NIPPON MOL AUC, CALA! MI E AIL MO LETI CEP LETI ECKIJACIL LETI POLTO LETI LILATA LETI JEGIN GATU XADOCAMMA.
+JO NIPPON MOL AUC, CALA! MI E AIL MO LETI CEP LETI ECKIJACIL LETI POLTO LETI LILATA LETI JEGIN GATU XADOSAMMA.
 
 MI TUWACAIT KALETI ATIME LETI "GEMU MAKETO" E LUCUC PI NUPANKALETI MOLIPLETI JULO CILA. "GEMU MAKETO" E JO NIPPON BELPIC LETI ALWE. "BELPIC, KA E LATA LETI LIJU TUDE JO LATA LETI CUL, PI LATA LETI TUDE JO TATALETI CUL, PI LATA AT LATA LETI PALBICLETI CUL." LUKUPIT KA XALE, BELPIC LETIT XEP-XEP METIC. IT KALETI ALWE LETI JULO E PANKALETI JULO CILA.
 
-JO KALETI "GEMU MAKETO", NIPPON CETKAIK LETI LATACET MAK MOL PI CUIT KIJE MI CETLETI BELPIC AT KULANTE. JO KALETI NOLE, CI BONCENAIT KILE KA JO DUTUCUNLETI. KA E AIL MO LETI CEP KANTEIT TUDE LETI "NIPPON BELPIC" AT LEKTON LAUZAIT LETI "<span lang="x-linmarn">筆兵無傾</span>" AT XEMONI LAUZAIT LETI "<span lang="x-linmarn">耳声手片</span>". .JO "<span lang="x-linmarn">筆兵無傾</span>" PIJUME MOL PI KA E "ICCO". LATA CELENE AMOLIT ZO JO ICCO PI NIP NUWOTIT KA NO BILKANIT CEKOLATA. JO "<span lang="x-linmarn">耳声手片</span>", LATA CENOCIT LUKUPIT AIL JULO LETI JUTATA PI LETIT KIJE ZO.
+JO KALETI "GEMU MAKETO", NIPPON CETKAIK LETI LATACET MAK MOL PI CUIT KIJE MI CETLETI BELPIC AT KULANTE. JO KALETI NOLE, CI BONCENAIT KILE KA JO DUTUCUNLETI. KA E AIL MO LETI CEP KANTEIT TUDE LETI "NIPPON BELPIC" AT LEKTON LAUZAIT LETI "<span lang="x-linmarn">筆兵無傾</span>" AT XEMONI LAUZAIT LETI "<span lang="x-linmarn">耳声手片</span>". JO "<span lang="x-linmarn">筆兵無傾</span>" PIJUME MOL PI KA E "ICCO". LATA CELENE AMOLIT ZO JO ICCO PI NIP NUWOTIT KA NO BILKANIT CEKOLATA. JO "<span lang="x-linmarn">耳声手片</span>", LATA CENOCIT LUKUPIT AIL JULO LETI JUTATA PI LETIT KIJE ZO.
 
-JO JUCNUKLETI, MI CENOCIT LATA CET CUIT TUDE JO AUCLETI "<span lang="x-linmarn">耳声手片</span>" PI CUIT TUDE JO CETLETI ""<span lang="x-linmarn">筆兵無傾</span>" AT CETLETI "NIPPON BELPIC" LETI JULO. NIPPON LATA CET XELIT AIL AT MI CETLETI UNDE PI MI CET XACEIT JO KA. MI CENOTIT NIPPON CETKAIK LETI LATACET CUIT KIJE KA CET JO "BUCU" PI LUKUPIT KA. NIP CENE E TUDE JO "GEMU MAKETO" LETI LATA DELU CUIT TUDE JO CI, METICA.
+JO JUCNUKLETI, MI CENOCIT LATA CET CUIT TUDE JO AUCLETI "<span lang="x-linmarn">耳声手片</span>" PI CUIT TUDE JO CETLETI "<span lang="x-linmarn">筆兵無傾</span>" AT CETLETI "NIPPON BELPIC" LETI JULO. NIPPON LATA CET XELIT AIL AT MI CETLETI UNDE PI MI CET XACEIT JO KA. MI CENOTIT NIPPON CETKAIK LETI LATACET CUIT KIJE KA CET JO "BUCU" PI LUKUPIT KA. NIP CENE E TUDE JO "GEMU MAKETO" LETI LATA DELU CUIT TUDE JO CI, METICA.
 
 JEGIN GATU XADOSAMMA KANTEIT
 </div>
 
 # <span lang="x-lineparine">fqiu athime'd "germu market"'s lususo'l</span>
 <div lang="x-lineparine">
-japaeo'd alsasti, salarua! mi es dzeparo’c fon ai'ren meumen karmaciste'd larkasal l’es jergin gartu xardosammar.
+japaeo'd alsasti, salarua! mi es dzeparo'c fon ai'ren meumen karmaciste'd larkasal l'es jergin gartu xardosammar.
 
 mi alpileon toinam lususo fqiu athime'd "germu market"'s fafsirlnerfe. "germu market"'d kante es "iumim fon velfez" fal nihona'd lkurftless mal la lex es ils xerf velfeze'd alve fal japaeo. "velfez veles lyeso larta'l lerj larta mal jojied lartassa'c la nujon mal falvix larta'i larta'c." velfez la lex xaleon letix kenelifen metis mal velfeze'd alve'st veleso tvarsnavo set es xorlmen.
 
