@@ -3,7 +3,7 @@ import { PageTitle, PageDescription } from "src/components/common";
 import { ExternalLinkList } from "src/components/common/ExternalLinkList";
 import { PostOGP } from "src/components/common/PostOGP";
 import {
-  pmcfBooksLinkData,
+  pmcpBooksLinkData,
   praigeBookLinkData,
   takanBookLinkData,
   bhaatBookLinkData,
@@ -35,7 +35,7 @@ const Index = () => {
 
         <h2>言語教材</h2>
         <h3>東島通商語</h3>
-        <ExternalLinkList linkDataList={pmcfBooksLinkData} />
+        <ExternalLinkList linkDataList={pmcpBooksLinkData} />
         <h3>パイグ語</h3>
         <ExternalLinkList linkDataList={praigeBookLinkData} />
         <h3>タカン語</h3>
