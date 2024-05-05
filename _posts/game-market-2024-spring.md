@@ -15,6 +15,8 @@ author:
 
 驚くべきことにかるたは完売し、「筆兵無傾」と「日本の遊戯」の売れ行きも好調であったということでして、日本の人々がアイル共和国および我々の世界を楽しんでくださっていることに感謝申し上げます。「BOOTH」においてもこれらは販売される予定のため、今回の「ゲームマーケット」に来られなかった方はぜひそちらで買われることをおすすめします。
 
+終わりに、ゲームマーケットにかかわるすべての方々に再び心より篤く御礼申し上げます。
+
 （訳：日本机戦連盟）<br>
 （訳注1：「遊戯は人から人へと伝えられ、人々に楽しみを与え、人と人と繋ぐものである」は、アイル共和国文化省による[『我々の遊戯』](https://cet2kaik.booth.pm/items/4781852)の前文にもある、ファイクレオネにおける有名なフレーズです。）
 
@@ -28,6 +30,8 @@ JO KALETI "GEMU MAKETO", NIPPON CETKAIK LETI LATACET MAK MOL PI CUIT KIJE MI CET
 
 JO JUCNUKLETI, MI CENOCIT LATA CET CUIT TUDE JO AUCLETI "<span lang="x-linmarn">耳声手片</span>" PI CUIT TUDE JO CETLETI "<span lang="x-linmarn">筆兵無傾</span>" AT CETLETI "NIPPON BELPIC" LETI JULO. NIPPON LATA CET XELIT AIL AT MI CETLETI UNDE PI MI CET XACEIT JO KA. MI CENOTIT NIPPON CETKAIK LETI LATACET CUIT KIJE KA CET JO "BUCU" PI LUKUPIT KA. NIP CENE E TUDE JO "GEMU MAKETO" LETI LATA DELU CUIT TUDE JO CI, METICA.
 
+JO LUCUCLETI, MI MAK XEP XACEIT JO NIPPON CETKAIK LETI LATACET AT NIPPON LATA CET AT "GEMU MAKETO" LETI LATA CET.
+
 JEGIN GATU XADOSAMMA KANTEIT
 </div>
 
@@ -37,9 +41,11 @@ japaeo'd alsasti, salarua! mi es dzeparo'c fon ai'ren meumen karmaciste'd larkas
 
 mi alpileon toinam lususo fqiu athime'd "germu market"'s fafsirlnerfe. "germu market"'d kante es "iumim fon velfez" fal nihona'd lkurftless mal la lex es ils xerf velfeze'd alve fal japaeo. "velfez veles lyeso larta'l lerj larta mal jojied lartassa'c la nujon mal falvix larta'i larta'c." velfez la lex xaleon letix kenelifen metis mal velfeze'd alve'st veleso tvarsnavo set es xorlmen.
 
-nart "germu market" io cierjustel cerke fon japaeo mak virot mal stejies misse'd unde'd velfez adit kranteerl. niss ledi'o qa'd "NIPPON BELPIC" zu ail ai'ren meumen karmacist krante i adit "<span lang="x-linmarn">筆兵無傾</span>" zu lekton laozia, "<span lang="x-linmarn">耳声手片</span>" zu xemoni laozia i cixj dytysn aziuk fal nart "germu market". "NIPPON BELPIC" plasi japaeo'd velfez fua misse'd unde'd lartass. selene lartass amol zo l'es "icco" fiurme efanj mal jel fauli'ertnian elx laver'd luhxe'i snuvodonerfe fal "<span lang="x-linmarn">筆兵無傾</span>". "<span lang="x-linmarn">耳声手片</span>" io lartass senost ai'r'scit lex lkurf ytarta mal letix lex ceses vepalea.
+nart "germu market" io cierjustel cerke fon japaeo mak virot mal stejies misse'd unde'd velfez adit kranteerl. niss ledi'o qa'd "<span lang="x-ycaxen-medium">NIPPON BELPIC</span>" zu ail ai'ren meumen karmacist krante i adit "<span lang="x-linmarn">筆兵無傾</span>" zu lekton laozia, "<span lang="x-linmarn">耳声手片</span>" zu xemoni laozia i cixj dytysn aziuk fal nart "germu market". "<span lang="x-ycaxen-medium">NIPPON BELPIC</span>" plasi japaeo'd velfez fua misse'd unde'd lartass. selene lartass amol zo l'es "icco" fiurme efanj mal jel fauli'ertnian elx iccostan'i snuvodonerfe fal "<span lang="x-linmarn">筆兵無傾</span>". "<span lang="x-linmarn">耳声手片</span>" io lartass senost ai'r'scit lex lkurf ytarta mal letix lex ceses vepalea.
 
 miss senost veleso dosyto alsa'd "<span lang="x-linmarn">耳声手片</span>"'st mal set junarle. miss senost stejieso nisse'st loler "NIPPON BELPIC" atit loler "<span lang="x-linmarn">筆兵無傾</span>". deliu miss alpileon lkurf japaeo'd lartassa'c ny la lex. xace fua nujono chafi'ofese'd ai'r adit misse'd unde. wioll la lexe'd aziuk veles stejieso fal "burth" gelx miss aubes dosyto la lex'it lartassa'st zelx cene niv klie fal "germu market".
+
+lesback io, mi mak alpileon slaxers alsa'd lartass zu melses "germu market".
 
 jergin gartu xardosammar krante
 </div>
