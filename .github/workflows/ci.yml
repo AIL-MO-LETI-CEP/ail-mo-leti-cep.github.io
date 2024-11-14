@@ -22,11 +22,11 @@ jobs:
           cache: "yarn"
           cache-dependency-path: ./pnpm-lock.yaml
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
       - name: Lint & Type check
-        run: yarn lint && yarn type-check
+        run: pnpm lint && pnpm type-check
       - name: Build
-        run: yarn build && yarn export
+        run: pnpm build && pnpm export
       - name: add nojekyll
         run: touch ./out/.nojekyll
       - name: Archive artifacts
