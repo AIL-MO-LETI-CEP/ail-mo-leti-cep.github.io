@@ -10,16 +10,18 @@ export default function PostItemList({ posts }: Props) {
   return (
     <Wrap>
       <ListContainer>
-        {posts.map((post) => (
-          <PostItem
-            key={post.path}
-            author={post.author.name}
-            date={post.date}
-            excerpt={post.excerpt}
-            path={post.path}
-            title={post.title}
-          />
-        ))}
+        {posts
+          .sort((a, b) => (a.date < b.date ? 1 : -1))
+          .map((post) => (
+            <PostItem
+              key={post.path}
+              author={post.author.name}
+              date={post.date}
+              excerpt={post.excerpt}
+              path={post.path}
+              title={post.title}
+            />
+          ))}
       </ListContainer>
     </Wrap>
   );
