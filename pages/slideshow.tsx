@@ -1,7 +1,7 @@
-import React from 'react';
-import { GetStaticProps } from 'next';
-import { Slideshow } from 'src/pages/index/slideshow';
-import { getImageFileNames } from './api/images';
+import React from "react";
+import { GetStaticProps } from "next";
+import { getImageFileNames } from "./api/images";
+import { Slideshow } from "src/pages/index/slideshow";
 
 type Props = {
   readonly imageFileNames: string[];
@@ -14,7 +14,7 @@ const SlideshowPage = ({ imageFileNames }: Props) => {
 export default SlideshowPage;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const imageFileNames = await getImageFileNames('slideshow');
+  const imageFileNames = await getImageFileNames("slideshow");
   return {
     props: {
       imageFileNames: imageFileNames,

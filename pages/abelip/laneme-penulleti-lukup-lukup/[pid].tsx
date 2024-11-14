@@ -1,21 +1,21 @@
-import { ParsedUrlQuery } from 'querystring';
-import styled from '@emotion/styled';
-import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
-import ErrorPage from 'next/error';
-import { useRouter } from 'next/router';
-import ReactMarkdown from 'react-markdown';
-import rehypeRaw from 'rehype-raw';
-import rehypeSanitize from 'rehype-sanitize';
-import remarkGfm from 'remark-gfm';
-import { PageTitle } from 'src/components/common';
-import { PostOGP } from 'src/components/common/PostOGP';
+import { ParsedUrlQuery } from "querystring";
+import styled from "@emotion/styled";
+import { GetStaticPaths, GetStaticProps, NextPage } from "next";
+import ErrorPage from "next/error";
+import { useRouter } from "next/router";
+import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
+import rehypeSanitize from "rehype-sanitize";
+import remarkGfm from "remark-gfm";
+import { PageTitle } from "src/components/common";
+import { PostOGP } from "src/components/common/PostOGP";
 import {
   TitlePMCF,
   lanermeFolkloreTitlePMCF,
   lanermeFolkloreData,
   LanermeFolklore,
-} from 'src/data/lanerme-folklore';
-import usePageTitle from 'src/hooks/usePageTitle';
+} from "src/data/lanerme-folklore";
+import usePageTitle from "src/hooks/usePageTitle";
 
 type Props = {
   readonly page: LanermeFolklore;
@@ -74,10 +74,10 @@ const Page: NextPage<Props> = ({ page }: Props) => {
                     remarkPlugins={[remarkGfm]}
                   >
                     {text
-                      .replaceAll('{', '<ruby>')
-                      .replaceAll('}', '</ruby>')
-                      .replaceAll('(', '<rt>')
-                      .replaceAll(')', '</rt>')}
+                      .replaceAll("{", "<ruby>")
+                      .replaceAll("}", "</ruby>")
+                      .replaceAll("(", "<rt>")
+                      .replaceAll(")", "</rt>")}
                   </ReactMarkdown>
                 );
               })}
@@ -99,7 +99,7 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({
   params,
 }) => {
   if (!params) {
-    throw Error('getStaticPaths failed!');
+    throw Error("getStaticPaths failed!");
   }
   const folklore = lanermeFolkloreData[params.pid];
 
