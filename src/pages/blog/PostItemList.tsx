@@ -1,6 +1,6 @@
-import styled from "@emotion/styled";
-import PostItem from "./PostItem";
-import { Post } from "pages/api/posts";
+import styled from '@emotion/styled';
+import { Post } from 'pages/api/posts';
+import PostItem from './PostItem';
 
 type Props = {
   posts: Post[];

@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import styled from "@emotion/styled";
-import Image from "next/image";
-import style from "styles/slideshow.module.css";
+import { useEffect, useState } from 'react';
+import styled from '@emotion/styled';
+import Image from 'next/image';
+import style from 'styles/slideshow.module.css';
 
 type Props = {
   readonly imageFileNames: string[];
@@ -44,7 +44,7 @@ const Slides = ({ imageFileNames, interval }: Props) => {
   });
   const transit = () => {
     const slides = imageFileNames.map((name, index) => {
-      let className = "";
+      let className = '';
       if (index === currentIndex) {
         className = style.fadeout;
       } else if (index === nextIndex) {

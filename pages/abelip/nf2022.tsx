@@ -1,13 +1,13 @@
-import styled from "@emotion/styled";
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import { IframeContainer } from "src/components/common";
-import { PostOGP } from "src/components/common/PostOGP";
-import usePageTitle from "src/hooks/usePageTitle";
+import styled from '@emotion/styled';
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import { IframeContainer } from 'src/components/common';
+import { PostOGP } from 'src/components/common/PostOGP';
+import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
-  usePageTitle("京都大学11月祭特設サイト");
+  usePageTitle('京都大学11月祭特設サイト');
   return (
     <div>
       <PostOGP
@@ -95,7 +95,7 @@ const Index = () => {
                   <Image
                     src="/imgs/nf2022/image19162.png"
                     fill
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: 'contain' }}
                     alt=""
                   />
                 </Link>
@@ -118,7 +118,7 @@ const Index = () => {
                   <Image
                     src="/imgs/nf2022/cerke_online.png"
                     fill
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: 'contain' }}
                     alt=""
                   />
                 </Link>
@@ -134,7 +134,7 @@ const Index = () => {
                   <Image
                     src="/imgs/nf2022/cerke_booth.png"
                     fill
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: 'contain' }}
                     alt=""
                   />
                 </Link>
@@ -164,7 +164,7 @@ const Index = () => {
                   <Image
                     src="/imgs/nf2022/cet2kaik_japan_with_frame.png"
                     fill
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: 'contain' }}
                     alt=""
                   />
                 </Link>
@@ -183,7 +183,7 @@ const Index = () => {
                   <Image
                     src="/imgs/nf2022/air_map.png"
                     fill
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: 'contain' }}
                     alt=""
                   />
                 </Link>
@@ -221,7 +221,7 @@ const Index = () => {
                   <Image
                     src="/imgs/nf2022/air_culture.png"
                     fill
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: 'contain' }}
                     alt=""
                   />
                 </Link>
@@ -237,7 +237,7 @@ const Index = () => {
                   <Image
                     src="/imgs/nf2022/inuca.png"
                     fill
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: 'contain' }}
                     alt=""
                   />
                 </Link>
@@ -264,7 +264,7 @@ const Index = () => {
                   <Image
                     src="/imgs/nf2022/pemecepe_map.png"
                     fill
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: 'contain' }}
                     alt=""
                   />
                 </Link>
@@ -350,7 +350,7 @@ const Index = () => {
                   <Image
                     src="/imgs/nf2022/y1huap1cet2kaikzui1.jpg"
                     fill
-                    style={{ objectFit: "contain" }}
+                    style={{ objectFit: 'contain' }}
                     alt=""
                   />
                 </Link>
