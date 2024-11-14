@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
   reactStrictMode: true,
   swcMinify: true,
-};
-
-module.exports = {
-  basePath: process.env.GITHUB_ACTIONS && "/ail-mo-leti-cep.github.io",
-  trailingSlash: true,
   images: {
     unoptimized: true,
-  },
+  }
 };
+
+module.exports = nextConfig;
