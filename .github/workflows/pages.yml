@@ -47,6 +47,9 @@ jobs:
             echo "Unable to determine packager manager"
             exit 1
           fi
+      - name: Install pnpm
+        run: | 
+          npm install -g pnpm
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
