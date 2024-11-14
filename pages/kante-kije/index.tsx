@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import { PageTitle, PageDescription } from 'src/components/common';
-import { ExternalLinkList } from 'src/components/common/ExternalLinkList';
-import { PostOGP } from 'src/components/common/PostOGP';
+import Head from "next/head";
+import { PageTitle, PageDescription } from "src/components/common";
+import { ExternalLinkList } from "src/components/common/ExternalLinkList";
+import { PostOGP } from "src/components/common/PostOGP";
 import {
   pmcpBooksLinkData,
   praigeBookLinkData,
@@ -10,11 +10,11 @@ import {
   cetkaikBookLinkData,
   nincetkaikBookLinkData,
   otherBookLinkData,
-} from 'src/data/linkdata/kante-kije';
-import usePageTitle from 'src/hooks/usePageTitle';
+} from "src/data/linkdata/kante-kije";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
-  usePageTitle('文献紹介');
+  usePageTitle("文献紹介");
   return (
     <div>
       <PostOGP

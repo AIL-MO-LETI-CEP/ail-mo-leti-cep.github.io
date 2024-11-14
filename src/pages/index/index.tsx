@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import Link from 'next/link';
-import { PageTitle } from 'src/components/common';
+import React from "react";
+import styled from "@emotion/styled";
+import Link from "next/link";
+import { PageTitle } from "src/components/common";
 
 const IndexPage: React.FC = () => {
   return (
