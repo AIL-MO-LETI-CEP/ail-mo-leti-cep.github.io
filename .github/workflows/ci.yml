@@ -26,7 +26,9 @@ jobs:
       - name: Lint & Type check
         run: pnpm lint && pnpm type-check
       - name: Build
-        run: pnpm build && pnpm export
+        run: pnpm build 
+      - name: Export static files
+        run: pnpm next build
       - name: add nojekyll
         run: touch ./out/.nojekyll
       - name: Archive artifacts
