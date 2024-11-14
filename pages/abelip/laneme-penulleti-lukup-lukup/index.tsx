@@ -1,15 +1,15 @@
-import Head from "next/head";
-import Link from "next/link";
-import { PageTitle, PageDescription } from "src/components/common";
-import { PostOGP } from "src/components/common/PostOGP";
+import Head from 'next/head';
+import Link from 'next/link';
+import { PageTitle, PageDescription } from 'src/components/common';
+import { PostOGP } from 'src/components/common/PostOGP';
 import {
   lanermeFolkloreData,
   lanermeFolkloreTitlePMCF,
-} from "src/data/lanerme-folklore";
-import usePageTitle from "src/hooks/usePageTitle";
+} from 'src/data/lanerme-folklore';
+import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
-  usePageTitle("『羅古論』展示");
+  usePageTitle('『羅古論』展示');
   return (
     <div>
       <PostOGP

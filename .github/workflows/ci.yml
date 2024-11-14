@@ -19,14 +19,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.plan.node-version }}
-          cache: "yarn"
-          cache-dependency-path: ./yarn.lock
+      - name: Install pnpm
+        run: "npm i -g pnpm"
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
       - name: Lint & Type check
-        run: yarn lint && yarn type-check
+        run: pnpm lint && pnpm type-check
       - name: Build
-        run: yarn build && yarn export
+        run: pnpm build
       - name: add nojekyll
         run: touch ./out/.nojekyll
       - name: Archive artifacts

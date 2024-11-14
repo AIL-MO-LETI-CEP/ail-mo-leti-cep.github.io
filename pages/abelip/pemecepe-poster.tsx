@@ -1,12 +1,12 @@
-import styled from "@emotion/styled";
-import Head from "next/head";
-import Image from "next/image";
-import { PageTitle, PageDescription } from "src/components/common";
-import { PostOGP } from "src/components/common/PostOGP";
-import usePageTitle from "src/hooks/usePageTitle";
+import styled from '@emotion/styled';
+import Head from 'next/head';
+import Image from 'next/image';
+import { PageTitle, PageDescription } from 'src/components/common';
+import { PostOGP } from 'src/components/common/PostOGP';
+import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
-  usePageTitle("ポスター展示");
+  usePageTitle('ポスター展示');
   return (
     <div>
       <PostOGP
@@ -28,7 +28,7 @@ const Index = () => {
         <PosterImageContainer>
           <Image
             src="/imgs/poster/micetltmo.png"
-            style={{ minWidth: "100px" }}
+            style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
             alt=""
@@ -58,7 +58,7 @@ const Index = () => {
         <PosterImageContainer>
           <Image
             src="/imgs/poster/jukancetageka.png"
-            style={{ minWidth: "100px" }}
+            style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
             alt=""
@@ -130,7 +130,7 @@ const Index = () => {
         <PosterImageContainer>
           <Image
             src="/imgs/poster/inuca.png"
-            style={{ minWidth: "100px" }}
+            style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
             alt=""
@@ -154,7 +154,7 @@ const Index = () => {
         <PosterImageContainer>
           <Image
             src="/imgs/poster/truiraikhuetpo.png"
-            style={{ minWidth: "100px" }}
+            style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
             alt=""
@@ -207,7 +207,7 @@ const Index = () => {
         <PosterImageContainer>
           <Image
             src="/imgs/poster/morkliniopor.png"
-            style={{ minWidth: "100px" }}
+            style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
             alt=""
@@ -241,7 +241,7 @@ const Index = () => {
         <PosterImageContainer>
           <Image
             src="/imgs/poster/lukupitletileti.png"
-            style={{ minWidth: "100px" }}
+            style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
             alt=""

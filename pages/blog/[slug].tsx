@@ -1,21 +1,21 @@
-import { ParsedUrlQuery } from "querystring";
-import { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import ErrorPage from "next/error";
-import { useRouter } from "next/router";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import rehypeSanitize from "rehype-sanitize";
-import remarkGfm from "remark-gfm";
-import { getAllPosts, getPostBySlug } from "lib/api";
-import { PostOGP } from "src/components/common/PostOGP";
-import usePageTitle from "src/hooks/usePageTitle";
-import { Post } from "src/model/Post";
+import { ParsedUrlQuery } from 'querystring';
+import { getAllPosts, getPostBySlug } from 'lib/api';
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import ErrorPage from 'next/error';
+import { useRouter } from 'next/router';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+import rehypeSanitize from 'rehype-sanitize';
+import remarkGfm from 'remark-gfm';
+import { PostOGP } from 'src/components/common/PostOGP';
+import usePageTitle from 'src/hooks/usePageTitle';
+import { Post } from 'src/model/Post';
 
 type Props = {
   readonly post: Post;
 };
 
-const Post: NextPage<Props> = ({ post }: Props) => {
+const post: NextPage<Props> = ({ post }: Props) => {
   const router = useRouter();
   usePageTitle(post?.title);
   if (!router.isFallback && !post?.slug) {
@@ -48,7 +48,7 @@ const Post: NextPage<Props> = ({ post }: Props) => {
   );
 };
 
-export default Post;
+export default post;
 
 type Params = ParsedUrlQuery & {
   readonly slug: string;
@@ -58,15 +58,15 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({
   params,
 }) => {
   if (!params) {
-    throw Error("getStaticPaths failed!");
+    throw Error('getStaticPaths failed!');
   }
   const post = getPostBySlug(params.slug, [
-    "title",
-    "date",
-    "excerpt",
-    "slug",
-    "author",
-    "content",
+    'title',
+    'date',
+    'excerpt',
+    'slug',
+    'author',
+    'content',
   ]) as unknown as Post;
 
   return {
@@ -79,7 +79,7 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const posts = getAllPosts(["slug"]);
+  const posts = getAllPosts(['slug']);
 
   return {
     paths: posts.map((post) => {
