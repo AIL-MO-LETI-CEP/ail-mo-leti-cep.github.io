@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: ${{ matrix.plan.node-version }}
           cache: "yarn"
-          cache-dependency-path: ./yarn.lock
+          cache-dependency-path: ./pnpm-lock.yaml
       - name: Install dependencies
         run: yarn
       - name: Lint & Type check
