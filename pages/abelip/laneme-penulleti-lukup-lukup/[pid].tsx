@@ -47,9 +47,9 @@ const Page: NextPage<Props> = ({ page }: Props) => {
         <>
           <PostOGP
             title={page.title}
-            type="article"
+            type='article'
             url={`https://ail-mo-leti-cep.github.io/laneme-penulleti-lukup-lukup/${page.title}/`}
-            description="日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。"
+            description='日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。'
           />
           <main>
             <div>
@@ -58,7 +58,7 @@ const Page: NextPage<Props> = ({ page }: Props) => {
             </div>
             <h2>原文</h2>
             <h3>燐字表記</h3>
-            <div lang="x-linmarn">{arrayToMarkdown(page.text.linmarn)}</div>
+            <div lang='x-linmarn'>{arrayToMarkdown(page.text.linmarn)}</div>
             <h3>漢字転写</h3>
             <div>{arrayToMarkdown(page.text.linmarn)}</div>
             <h2>訳文</h2>

@@ -18,10 +18,10 @@ const Index = () => {
   return (
     <div>
       <PostOGP
-        title="文献紹介"
-        type="article"
-        url="https://ail-mo-leti-cep.github.io/abelip/kante-kije"
-        description="各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介します。"
+        title='文献紹介'
+        type='article'
+        url='https://ail-mo-leti-cep.github.io/abelip/kante-kije'
+        description='各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介します。'
       />
       <Head>
         <></>

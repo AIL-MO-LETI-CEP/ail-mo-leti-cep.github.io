@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { PageTitle, PageDescription } from 'src/components/common';
 import { PostOGP } from 'src/components/common/PostOGP';
+import { BASE_HREF } from 'src/data/const';
 import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
@@ -10,10 +11,10 @@ const Index = () => {
   return (
     <div>
       <PostOGP
-        title="ポスター展示"
-        type="article"
-        url="https://ail-mo-leti-cep.github.io/abelip/pemecepe-poster"
-        description="アイルおよびPMCFを中心に、ポスターや本の表紙などの資料を展示する。"
+        title='ポスター展示'
+        type='article'
+        url='https://ail-mo-leti-cep.github.io/abelip/pemecepe-poster'
+        description='アイルおよびPMCFを中心に、ポスターや本の表紙などの資料を展示する。'
       />
       <Head>
         <></>
@@ -27,11 +28,11 @@ const Index = () => {
       <PosterContainer>
         <PosterImageContainer>
           <Image
-            src="/imgs/poster/micetltmo.png"
+            src={`${BASE_HREF}/imgs/poster/micetltmo.png`}
             style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
-            alt=""
+            alt=''
           />
         </PosterImageContainer>
         <PosterInfoContainer>
@@ -57,11 +58,11 @@ const Index = () => {
       <PosterContainer>
         <PosterImageContainer>
           <Image
-            src="/imgs/poster/jukancetageka.png"
+            src={`${BASE_HREF}/imgs/poster/jukancetageka.png`}
             style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
-            alt=""
+            alt=''
           />
         </PosterImageContainer>
         <PosterInfoContainer>
@@ -129,11 +130,11 @@ const Index = () => {
       <PosterContainer>
         <PosterImageContainer>
           <Image
-            src="/imgs/poster/inuca.png"
+            src={`${BASE_HREF}/imgs/poster/inuca.png`}
             style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
-            alt=""
+            alt=''
           />
         </PosterImageContainer>
         <PosterInfoContainer>
@@ -153,11 +154,11 @@ const Index = () => {
       <PosterContainer>
         <PosterImageContainer>
           <Image
-            src="/imgs/poster/truiraikhuetpo.png"
+            src={`${BASE_HREF}/imgs/poster/truiraikhuetpo.png`}
             style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
-            alt=""
+            alt=''
           />
         </PosterImageContainer>
         <PosterInfoContainer>
@@ -183,10 +184,10 @@ const Index = () => {
       <PosterContainer>
         <PosterImageContainer>
           <Image
-            src="/imgs/poster/honrui.png"
+            src={`${BASE_HREF}/imgs/poster/honrui.png`}
             height={282.9}
             width={200}
-            alt=""
+            alt=''
           />
         </PosterImageContainer>
         <PosterInfoContainer>
@@ -206,11 +207,11 @@ const Index = () => {
       <PosterContainer>
         <PosterImageContainer>
           <Image
-            src="/imgs/poster/morkliniopor.png"
+            src={`${BASE_HREF}/imgs/poster/morkliniopor.png`}
             style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
-            alt=""
+            alt=''
           />
         </PosterImageContainer>
         <PosterInfoContainer>
@@ -240,11 +241,11 @@ const Index = () => {
       <PosterContainer>
         <PosterImageContainer>
           <Image
-            src="/imgs/poster/lukupitletileti.png"
+            src={`${BASE_HREF}/imgs/poster/lukupitletileti.png`}
             style={{ minWidth: '100px' }}
             height={282.9}
             width={200}
-            alt=""
+            alt=''
           />
         </PosterImageContainer>
         <PosterInfoContainer>

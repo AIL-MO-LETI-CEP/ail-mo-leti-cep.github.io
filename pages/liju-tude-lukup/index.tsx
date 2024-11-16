@@ -8,10 +8,10 @@ const Index = () => {
   return (
     <div>
       <PostOGP
-        title="言語講座"
-        type="article"
-        url="https://ail-mo-leti-cep.github.io/liju-tude-lukup"
-        description="アイル共和国文化省が本国の公式HPで提供している『与言学処』を、こちらの広報処HPでも提供することになりました！"
+        title='言語講座'
+        type='article'
+        url='https://ail-mo-leti-cep.github.io/liju-tude-lukup'
+        description='アイル共和国文化省が本国の公式HPで提供している『与言学処』を、こちらの広報処HPでも提供することになりました！'
       />
       <Head>
         <></>

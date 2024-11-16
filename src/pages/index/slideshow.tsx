@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import styled from '@emotion/styled';
 import Image from 'next/image';
+import { BASE_HREF } from 'src/data/const';
 import style from 'styles/slideshow.module.css';
 
 type Props = {
@@ -11,14 +12,14 @@ type Props = {
 const initChildren = [
   <Image
     key={0}
-    src="/imgs/slideshow/冠.png"
+    src={`${BASE_HREF}/imgs/slideshow/冠.png`}
     fill
     alt=""
     className={style.fadeout}
   />,
   <Image
     key={1}
-    src="/imgs/slideshow/国.png"
+    src={`${BASE_HREF}/imgs/slideshow/国.png`}
     fill
     alt=""
     className={style.fadein}
@@ -55,7 +56,7 @@ const Slides = ({ imageFileNames, interval }: Props) => {
       return (
         <Image
           key={name}
-          src={`/imgs/slideshow/${name}`}
+          src={`${BASE_HREF}/imgs/slideshow/${name}`}
           fill
           alt=""
           className={className}

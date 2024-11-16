@@ -7,10 +7,10 @@ const Index = () => {
   return (
     <div>
       <PostOGP
-        title=""
-        type="website"
-        url="https://ail-mo-leti-cep.github.io/"
-        description="アイル共和国文化省の公式ホームページです。"
+        title=''
+        type='website'
+        url='https://ail-mo-leti-cep.github.io/'
+        description='アイル共和国文化省の公式ホームページです。'
       />
       <IndexPage />
     </div>

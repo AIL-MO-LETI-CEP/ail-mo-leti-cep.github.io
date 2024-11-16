@@ -31,7 +31,7 @@ const post: NextPage<Props> = ({ post }: Props) => {
           <PostOGP
             title={post.title}
             description={post.excerpt}
-            type="article"
+            type='article'
             url={`https://ail-mo-leti-cep.github.io/blog/${post.slug}`}
           />
           <article>

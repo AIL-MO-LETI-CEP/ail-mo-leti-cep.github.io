@@ -12,10 +12,10 @@ const Index = ({ posts }: Props) => {
   return (
     <div>
       <PostOGP
-        title="広報処近況ブログ"
-        type="article"
-        url="https://ail-mo-leti-cep.github.io/blog"
-        description="アイル共和国文化省広報処の近況ブログです。"
+        title='広報処近況ブログ'
+        type='article'
+        url='https://ail-mo-leti-cep.github.io/blog'
+        description='アイル共和国文化省広報処の近況ブログです。'
       />
       <Head>
         <></>

@@ -10,10 +10,10 @@ const Index = () => {
   return (
     <div>
       <PostOGP
-        title="外部リンク"
-        type="article"
-        url="https://ail-mo-leti-cep.github.io/tec-leti-julo"
-        description="アイル共和国文化省およびその担当する事柄に関するリンクを紹介しています。"
+        title='外部リンク'
+        type='article'
+        url='https://ail-mo-leti-cep.github.io/tec-leti-julo'
+        description='アイル共和国文化省およびその担当する事柄に関するリンクを紹介しています。'
       />
       <Head>
         <></>
