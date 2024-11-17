@@ -1,24 +1,25 @@
-import styled from "@emotion/styled";
-import Image from "next/image";
-import Link from "next/link";
+import styled from '@emotion/styled';
+import Image from 'next/image';
+import Link from 'next/link';
+import { BASE_HREF } from 'src/data/const';
 
 export const Header: React.FC = () => {
   return (
     <header>
       <LogoContainer>
         <Image
-          src="/imgs/huep2_hia1.png"
+          src={`${BASE_HREF}/imgs/huep2_hia1.png`}
           width={60}
           height={60}
-          alt="logo"
-          style={{ marginRight: "10px" }}
+          alt='logo'
+          style={{ marginRight: '10px' }}
         />
-        <div style={{ marginLeft: "0px" }}>
-          <Link href="/" className="no-underline">
-            <div lang="ja" style={{ fontSize: "125%" }}>
+        <div style={{ marginLeft: '0px' }}>
+          <Link href='/' className='no-underline'>
+            <div lang='ja' style={{ fontSize: '125%' }}>
               アイル共和国文化省
             </div>
-            <div lang="x-pektak" style={{ fontSize: "154%" }}>
+            <div lang='x-pektak' style={{ fontSize: '154%' }}>
               AIL MO LETI CEP
             </div>
           </Link>
@@ -26,18 +27,18 @@ export const Header: React.FC = () => {
       </LogoContainer>
 
       <hr />
-      <Tab lang="ja">
+      <Tab lang='ja'>
         <TabChild>
-          <Link href="/abelip">各種展示</Link>
+          <Link href='/abelip'>各種展示</Link>
         </TabChild>
         <TabChild>
-          <Link href="/kante-kije">文献紹介</Link>
+          <Link href='/kante-kije'>文献紹介</Link>
         </TabChild>
         <TabChild>
-          <Link href="/liju-tude-lukup">言語講座</Link>
+          <Link href='/liju-tude-lukup'>言語講座</Link>
         </TabChild>
         <TabChild>
-          <Link href="/blog">近況報告</Link>
+          <Link href='/blog'>近況報告</Link>
         </TabChild>
       </Tab>
       <hr />

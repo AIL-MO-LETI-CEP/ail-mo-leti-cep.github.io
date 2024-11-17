@@ -1,22 +1,22 @@
-import Head from "next/head";
-import Link from "next/link";
-import { PageTitle, PageDescription } from "src/components/common";
-import { PostOGP } from "src/components/common/PostOGP";
+import Head from 'next/head';
+import Link from 'next/link';
+import { PageTitle, PageDescription } from 'src/components/common';
+import { PostOGP } from 'src/components/common/PostOGP';
 import {
   lanermeFolkloreData,
   lanermeFolkloreTitlePMCF,
-} from "src/data/lanerme-folklore";
-import usePageTitle from "src/hooks/usePageTitle";
+} from 'src/data/lanerme-folklore';
+import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
-  usePageTitle("『羅古論』展示");
+  usePageTitle('『羅古論』展示');
   return (
     <div>
       <PostOGP
-        title="『羅古論』展示"
-        type="article"
-        url="https://ail-mo-leti-cep.github.io/abelip/laneme-penulleti-lukup-lukup/"
-        description="日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。"
+        title='『羅古論』展示'
+        type='article'
+        url='https://ail-mo-leti-cep.github.io/abelip/laneme-penulleti-lukup-lukup/'
+        description='日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。'
       />
       <Head>
         <></>

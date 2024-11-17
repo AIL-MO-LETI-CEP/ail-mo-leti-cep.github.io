@@ -1,7 +1,7 @@
-import Head from "next/head";
-import { PageTitle, PageDescription } from "src/components/common";
-import { ExternalLinkList } from "src/components/common/ExternalLinkList";
-import { PostOGP } from "src/components/common/PostOGP";
+import Head from 'next/head';
+import { PageTitle, PageDescription } from 'src/components/common';
+import { ExternalLinkList } from 'src/components/common/ExternalLinkList';
+import { PostOGP } from 'src/components/common/PostOGP';
 import {
   pmcpBooksLinkData,
   praigeBookLinkData,
@@ -10,18 +10,18 @@ import {
   cetkaikBookLinkData,
   nincetkaikBookLinkData,
   otherBookLinkData,
-} from "src/data/linkdata/kante-kije";
-import usePageTitle from "src/hooks/usePageTitle";
+} from 'src/data/linkdata/kante-kije';
+import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
-  usePageTitle("文献紹介");
+  usePageTitle('文献紹介');
   return (
     <div>
       <PostOGP
-        title="文献紹介"
-        type="article"
-        url="https://ail-mo-leti-cep.github.io/abelip/kante-kije"
-        description="各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介します。"
+        title='文献紹介'
+        type='article'
+        url='https://ail-mo-leti-cep.github.io/abelip/kante-kije'
+        description='各種文献の読解ログや資料、および各種言語教材や遊戯の解説書などのリンクを紹介します。'
       />
       <Head>
         <></>

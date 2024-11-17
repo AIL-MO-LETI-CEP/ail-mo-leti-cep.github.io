@@ -1,21 +1,21 @@
-import { ParsedUrlQuery } from "querystring";
-import styled from "@emotion/styled";
-import { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import ErrorPage from "next/error";
-import { useRouter } from "next/router";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import rehypeSanitize from "rehype-sanitize";
-import remarkGfm from "remark-gfm";
-import { PageTitle } from "src/components/common";
-import { PostOGP } from "src/components/common/PostOGP";
+import { ParsedUrlQuery } from 'querystring';
+import styled from '@emotion/styled';
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import ErrorPage from 'next/error';
+import { useRouter } from 'next/router';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+import rehypeSanitize from 'rehype-sanitize';
+import remarkGfm from 'remark-gfm';
+import { PageTitle } from 'src/components/common';
+import { PostOGP } from 'src/components/common/PostOGP';
 import {
   TitlePMCF,
   lanermeFolkloreTitlePMCF,
   lanermeFolkloreData,
   LanermeFolklore,
-} from "src/data/lanerme-folklore";
-import usePageTitle from "src/hooks/usePageTitle";
+} from 'src/data/lanerme-folklore';
+import usePageTitle from 'src/hooks/usePageTitle';
 
 type Props = {
   readonly page: LanermeFolklore;
@@ -47,9 +47,9 @@ const Page: NextPage<Props> = ({ page }: Props) => {
         <>
           <PostOGP
             title={page.title}
-            type="article"
+            type='article'
             url={`https://ail-mo-leti-cep.github.io/laneme-penulleti-lukup-lukup/${page.title}/`}
-            description="日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。"
+            description='日本に伝わっている燐字文献のうち大きな割合を占める『羅古論』を特集しています。'
           />
           <main>
             <div>
@@ -58,7 +58,7 @@ const Page: NextPage<Props> = ({ page }: Props) => {
             </div>
             <h2>原文</h2>
             <h3>燐字表記</h3>
-            <div lang="x-linmarn">{arrayToMarkdown(page.text.linmarn)}</div>
+            <div lang='x-linmarn'>{arrayToMarkdown(page.text.linmarn)}</div>
             <h3>漢字転写</h3>
             <div>{arrayToMarkdown(page.text.linmarn)}</div>
             <h2>訳文</h2>
@@ -74,10 +74,10 @@ const Page: NextPage<Props> = ({ page }: Props) => {
                     remarkPlugins={[remarkGfm]}
                   >
                     {text
-                      .replaceAll("{", "<ruby>")
-                      .replaceAll("}", "</ruby>")
-                      .replaceAll("(", "<rt>")
-                      .replaceAll(")", "</rt>")}
+                      .replaceAll('{', '<ruby>')
+                      .replaceAll('}', '</ruby>')
+                      .replaceAll('(', '<rt>')
+                      .replaceAll(')', '</rt>')}
                   </ReactMarkdown>
                 );
               })}
@@ -99,7 +99,7 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({
   params,
 }) => {
   if (!params) {
-    throw Error("getStaticPaths failed!");
+    throw Error('getStaticPaths failed!');
   }
   const folklore = lanermeFolkloreData[params.pid];
 

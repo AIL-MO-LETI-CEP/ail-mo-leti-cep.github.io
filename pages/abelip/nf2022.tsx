@@ -1,20 +1,21 @@
-import styled from "@emotion/styled";
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import { IframeContainer } from "src/components/common";
-import { PostOGP } from "src/components/common/PostOGP";
-import usePageTitle from "src/hooks/usePageTitle";
+import styled from '@emotion/styled';
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import { IframeContainer } from 'src/components/common';
+import { PostOGP } from 'src/components/common/PostOGP';
+import { BASE_HREF } from 'src/data/const';
+import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
-  usePageTitle("京都大学11月祭特設サイト");
+  usePageTitle('京都大学11月祭特設サイト');
   return (
     <div>
       <PostOGP
-        title="京都大学11月祭特設サイト"
-        type="article"
-        url="https://ail-mo-leti-cep.github.io/abelip/nf2022"
-        description="ご存じアイル共和国の架空伝統ゲーム、「机戦」がNFに初上陸！机戦にまつわるさまざまな史料・動画・背景などを紹介します！すべての画像にリンクが張られているのでぜひジャンプしてみてください！"
+        title='京都大学11月祭特設サイト'
+        type='article'
+        url='https://ail-mo-leti-cep.github.io/abelip/nf2022'
+        description='ご存じアイル共和国の架空伝統ゲーム、「机戦」がNFに初上陸！机戦にまつわるさまざまな史料・動画・背景などを紹介します！すべての画像にリンクが張られているのでぜひジャンプしてみてください！'
       />
       <Head>
         <></>
@@ -23,25 +24,25 @@ const Index = () => {
       <main>
         <HeadContainer>
           <HeadImageContainer>
-            <Image src="/imgs/nf2022/xH-026.png" fill alt="" />
+            <Image src={`${BASE_HREF}/imgs/nf2022/xH-026.png`} fill alt='' />
           </HeadImageContainer>
           <HeadInfoContainer>
             <HeadTitle>架空伝統ゲーム（一行矛盾）</HeadTitle>
             <HeadGroupName>日本机戦連盟</HeadGroupName>
             <HeadLinkContainer>
               <HeadLink>
-                <Link href="https://sites.google.com/view/cet2kaik/">
-                  <Image src="/imgs/nf2022/site_link.svg" fill alt="" />
+                <Link href='https://sites.google.com/view/cet2kaik/'>
+                  <Image src={`${BASE_HREF}/imgs/nf2022/site_link.svg`} fill alt='' />
                 </Link>
               </HeadLink>
               <HeadLink>
-                <Link href="https://twitter.com/cet2kaik">
-                  <Image src="/imgs/nf2022/twitter_blue.svg" fill alt="" />
+                <Link href='https://twitter.com/cet2kaik'>
+                  <Image src={`${BASE_HREF}/imgs/nf2022/twitter_blue.svg`} fill alt='' />
                 </Link>
               </HeadLink>
               <HeadLink>
-                <Link href="https://www.youtube.com/channel/UCdjFUR1MvJ-oExWUKlY2M8A">
-                  <Image src="/imgs/nf2022/YouTube.png" fill alt="" />
+                <Link href='https://www.youtube.com/channel/UCdjFUR1MvJ-oExWUKlY2M8A'>
+                  <Image src={`${BASE_HREF}/imgs/nf2022/YouTube.png`} fill alt='' />
                 </Link>
               </HeadLink>
             </HeadLinkContainer>
@@ -77,9 +78,9 @@ const Index = () => {
               <SubsectionImageContainer>
                 <IframeContainer>
                   <iframe
-                    src="https://www.youtube.com/embed/l1oRqKTQ0s8"
-                    title="YouTube video player"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    src='https://www.youtube.com/embed/l1oRqKTQ0s8'
+                    title='YouTube video player'
+                    allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                     allowFullScreen
                   ></iframe>
                 </IframeContainer>
@@ -91,12 +92,12 @@ const Index = () => {
             <SubsectionTitle>もっと詳しく！</SubsectionTitle>
             <SubsectionContent>
               <SubsectionImageContainer>
-                <Link href="https://sites.google.com/view/cet2kaik/%E6%9C%BA%E6%88%A6%E3%81%A8%E3%81%AF">
+                <Link href='https://sites.google.com/view/cet2kaik/%E6%9C%BA%E6%88%A6%E3%81%A8%E3%81%AF'>
                   <Image
-                    src="/imgs/nf2022/image19162.png"
+                    src={`${BASE_HREF}/imgs/nf2022/image19162.png`}
                     fill
-                    style={{ objectFit: "contain" }}
-                    alt=""
+                    style={{ objectFit: 'contain' }}
+                    alt=''
                   />
                 </Link>
               </SubsectionImageContainer>
@@ -114,12 +115,12 @@ const Index = () => {
                 <p>CPU戦もランダムマッチもフレンド戦も全部できるすごいやつ！</p>
               </SubsectionInfo>
               <SubsectionImageContainer>
-                <Link href="http://jurliyuuri.com/cerke_online_alpha/index.html">
+                <Link href='http://jurliyuuri.com/cerke_online_alpha/index.html'>
                   <Image
-                    src="/imgs/nf2022/cerke_online.png"
+                    src={`${BASE_HREF}/imgs/nf2022/cerke_online.png`}
                     fill
-                    style={{ objectFit: "contain" }}
-                    alt=""
+                    style={{ objectFit: 'contain' }}
+                    alt=''
                   />
                 </Link>
               </SubsectionImageContainer>
@@ -130,12 +131,12 @@ const Index = () => {
             <SubsectionTitle>ほしい！</SubsectionTitle>
             <SubsectionContent>
               <SubsectionImageContainer>
-                <Link href="https://booth.pm/ja/items/3634755">
+                <Link href='https://booth.pm/ja/items/3634755'>
                   <Image
-                    src="/imgs/nf2022/cerke_booth.png"
+                    src={`${BASE_HREF}/imgs/nf2022/cerke_booth.png`}
                     fill
-                    style={{ objectFit: "contain" }}
-                    alt=""
+                    style={{ objectFit: 'contain' }}
+                    alt=''
                   />
                 </Link>
               </SubsectionImageContainer>
@@ -160,12 +161,12 @@ const Index = () => {
                 </p>
               </SubsectionInfo>
               <SubsectionImageContainer>
-                <Link href="https://discord.gg/9ytmYgaV23">
+                <Link href='https://discord.gg/9ytmYgaV23'>
                   <Image
-                    src="/imgs/nf2022/cet2kaik_japan_with_frame.png"
+                    src={`${BASE_HREF}/imgs/nf2022/cet2kaik_japan_with_frame.png`}
                     fill
-                    style={{ objectFit: "contain" }}
-                    alt=""
+                    style={{ objectFit: 'contain' }}
+                    alt=''
                   />
                 </Link>
               </SubsectionImageContainer>
@@ -179,12 +180,12 @@ const Index = () => {
             <SubsectionTitle>どんな国？</SubsectionTitle>
             <SubsectionContent>
               <SubsectionImageContainer>
-                <Link href="https://sites.google.com/site/syxobo/airu-gong-he-guo-wen-hua-ting">
+                <Link href='https://sites.google.com/site/syxobo/airu-gong-he-guo-wen-hua-ting'>
                   <Image
-                    src="/imgs/nf2022/air_map.png"
+                    src={`${BASE_HREF}/imgs/nf2022/air_map.png`}
                     fill
-                    style={{ objectFit: "contain" }}
-                    alt=""
+                    style={{ objectFit: 'contain' }}
+                    alt=''
                   />
                 </Link>
               </SubsectionImageContainer>
@@ -217,12 +218,12 @@ const Index = () => {
                 </p>
               </SubsectionInfo>
               <SubsectionImageContainer>
-                <Link href="http://www.jurliyuuri.info/wiki/%E3%82%A2%E3%82%A4%E3%83%AB%E5%85%B1%E5%92%8C%E5%9B%BD">
+                <Link href='http://www.jurliyuuri.info/wiki/%E3%82%A2%E3%82%A4%E3%83%AB%E5%85%B1%E5%92%8C%E5%9B%BD'>
                   <Image
-                    src="/imgs/nf2022/air_culture.png"
+                    src={`${BASE_HREF}/imgs/nf2022/air_culture.png`}
                     fill
-                    style={{ objectFit: "contain" }}
-                    alt=""
+                    style={{ objectFit: 'contain' }}
+                    alt=''
                   />
                 </Link>
               </SubsectionImageContainer>
@@ -233,12 +234,12 @@ const Index = () => {
             <SubsectionTitle>文化省の取り組み</SubsectionTitle>
             <SubsectionContent>
               <SubsectionImageContainer>
-                <Link href="/abelip/pemecepe-poster">
+                <Link href='/abelip/pemecepe-poster'>
                   <Image
-                    src="/imgs/nf2022/inuca.png"
+                    src={`${BASE_HREF}/imgs/nf2022/inuca.png`}
                     fill
-                    style={{ objectFit: "contain" }}
-                    alt=""
+                    style={{ objectFit: 'contain' }}
+                    alt=''
                   />
                 </Link>
               </SubsectionImageContainer>
@@ -260,12 +261,12 @@ const Index = () => {
             <SubsectionTitle>アイルの外の世界</SubsectionTitle>
             <SubsectionContent>
               <SubsectionImageContainer>
-                <Link href="http://www.jurliyuuri.info/wiki/PMCF">
+                <Link href='http://www.jurliyuuri.info/wiki/PMCF'>
                   <Image
-                    src="/imgs/nf2022/pemecepe_map.png"
+                    src={`${BASE_HREF}/imgs/nf2022/pemecepe_map.png`}
                     fill
-                    style={{ objectFit: "contain" }}
-                    alt=""
+                    style={{ objectFit: 'contain' }}
+                    alt=''
                   />
                 </Link>
               </SubsectionImageContainer>
@@ -297,9 +298,9 @@ const Index = () => {
               <SubsectionImageContainer>
                 <IframeContainer>
                   <iframe
-                    src="https://www.youtube.com/embed/y6m7JKlEUsA"
-                    title="YouTube video player"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    src='https://www.youtube.com/embed/y6m7JKlEUsA'
+                    title='YouTube video player'
+                    allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                     allowFullScreen
                   ></iframe>
                 </IframeContainer>
@@ -313,9 +314,9 @@ const Index = () => {
               <SubsectionImageContainer>
                 <IframeContainer>
                   <iframe
-                    src="https://www.youtube.com/embed/3WYTi2Yp54Q"
-                    title="YouTube video player"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    src='https://www.youtube.com/embed/3WYTi2Yp54Q'
+                    title='YouTube video player'
+                    allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                     allowFullScreen
                   ></iframe>
                 </IframeContainer>
@@ -346,12 +347,12 @@ const Index = () => {
                 </p>
               </SubsectionInfo>
               <SubsectionImageContainer>
-                <Link href="/lin-leti-lujot/lijuit_kije.pdf">
+                <Link href='/lin-leti-lujot/lijuit_kije.pdf'>
                   <Image
-                    src="/imgs/nf2022/y1huap1cet2kaikzui1.jpg"
+                    src={`${BASE_HREF}/imgs/nf2022/y1huap1cet2kaikzui1.jpg`}
                     fill
-                    style={{ objectFit: "contain" }}
-                    alt=""
+                    style={{ objectFit: 'contain' }}
+                    alt=''
                   />
                 </Link>
               </SubsectionImageContainer>

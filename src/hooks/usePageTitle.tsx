@@ -4,9 +4,9 @@ import {
   useCallback,
   useContext,
   useState,
-} from "react";
-import Head from "next/head";
-import { useEffectOnce } from "react-use";
+} from 'react';
+import Head from 'next/head';
+import { useEffectOnce } from 'react-use';
 
 type PageTitleContext = {
   title: string;
@@ -14,7 +14,7 @@ type PageTitleContext = {
 };
 
 const pageTitleContext = createContext<PageTitleContext>({
-  title: "",
+  title: '',
   setTitle: () => void 0,
 });
 
