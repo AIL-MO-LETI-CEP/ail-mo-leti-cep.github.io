@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { BASE_HREF } from 'src/data/const';
 
-export const Header = () => {
+export const Header: React.FC = () => {
   return (
     <header>
       <LogoContainer>

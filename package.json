@@ -11,24 +11,21 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@emotion/react": "^11.13.3",
-    "@emotion/styled": "^11.13.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "gray-matter": "^4.0.3",
     "next": "15.0.3",
     "query-string": "^8.2.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-markdown": "^8.0.7",
-    "react-use": "^17.5.1",
+    "react-use": "^17.4.0",
     "rehype-raw": "^6.1.1",
     "rehype-sanitize": "^5.0.1",
     "remark-gfm": "^3.0.1",
-    "sharp": "^0.33.5"
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.2.2",
-    "@eslint/js": "^9.14.0",
-    "@types/eslint__js": "^8.42.3",
     "@types/markdown-it": "^12.2.3",
     "@types/node": "22.9.0",
     "@types/react": "18.3.12",

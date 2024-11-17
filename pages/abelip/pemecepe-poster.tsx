@@ -7,7 +7,7 @@ import { BASE_HREF } from 'src/data/const';
 import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
-  usePageTitle('ポスター展示');
+  usePageTitle("ポスター展示");
   return (
     <div>
       <PostOGP

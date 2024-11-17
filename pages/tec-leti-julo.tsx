@@ -1,12 +1,12 @@
-import Head from 'next/head';
-import { PageTitle, PageDescription } from 'src/components/common';
-import { ExternalLinkList } from 'src/components/common/ExternalLinkList';
-import { PostOGP } from 'src/components/common/PostOGP';
-import { externalLinkData } from 'src/data/linkdata/tec-leti-julo';
-import usePageTitle from 'src/hooks/usePageTitle';
+import Head from "next/head";
+import { PageTitle, PageDescription } from "src/components/common";
+import { ExternalLinkList } from "src/components/common/ExternalLinkList";
+import { PostOGP } from "src/components/common/PostOGP";
+import { externalLinkData } from "src/data/linkdata/tec-leti-julo";
+import usePageTitle from "src/hooks/usePageTitle";
 
 const Index = () => {
-  usePageTitle('外部リンク');
+  usePageTitle("外部リンク");
   return (
     <div>
       <PostOGP
