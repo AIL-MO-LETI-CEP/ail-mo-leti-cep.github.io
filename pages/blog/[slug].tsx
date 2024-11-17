@@ -15,7 +15,7 @@ type Props = {
   readonly post: Post;
 };
 
-const Post: NextPage<Props> = ({ post }: Props) => {
+const postPage: NextPage<Props> = ({ post }: Props) => {
   const router = useRouter();
   usePageTitle(post?.title);
   if (!router.isFallback && !post?.slug) {
@@ -48,7 +48,7 @@ const Post: NextPage<Props> = ({ post }: Props) => {
   );
 };
 
-export default Post;
+export default postPage;
 
 type Params = ParsedUrlQuery & {
   readonly slug: string;
