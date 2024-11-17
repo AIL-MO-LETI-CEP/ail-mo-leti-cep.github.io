@@ -1,6 +1,6 @@
-import { PostOGP } from "src/components/common/PostOGP";
-import usePageTitle from "src/hooks/usePageTitle";
-import IndexPage from "src/pages/index";
+import { PostOGP } from 'src/components/common/PostOGP';
+import usePageTitle from 'src/hooks/usePageTitle';
+import IndexPage from 'src/pages/index';
 
 const Index = () => {
   usePageTitle();

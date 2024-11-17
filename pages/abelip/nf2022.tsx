@@ -8,7 +8,7 @@ import { BASE_HREF } from 'src/data/const';
 import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
-  usePageTitle("京都大学11月祭特設サイト");
+  usePageTitle('京都大学11月祭特設サイト');
   return (
     <div>
       <PostOGP

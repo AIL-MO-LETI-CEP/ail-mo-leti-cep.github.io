@@ -1,10 +1,10 @@
-import Head from "next/head";
-import { PageTitle, PageDescription } from "src/components/common";
-import { PostOGP } from "src/components/common/PostOGP";
-import usePageTitle from "src/hooks/usePageTitle";
+import Head from 'next/head';
+import { PageTitle, PageDescription } from 'src/components/common';
+import { PostOGP } from 'src/components/common/PostOGP';
+import usePageTitle from 'src/hooks/usePageTitle';
 
 const Index = () => {
-  usePageTitle("言語講座");
+  usePageTitle('言語講座');
   return (
     <div>
       <PostOGP

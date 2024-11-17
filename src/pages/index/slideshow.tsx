@@ -45,7 +45,7 @@ const Slides = ({ imageFileNames, interval }: Props) => {
   });
   const transit = () => {
     const slides = imageFileNames.map((name, index) => {
-      let className = "";
+      let className = '';
       if (index === currentIndex) {
         className = style.fadeout;
       } else if (index === nextIndex) {

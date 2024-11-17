@@ -1,18 +1,18 @@
-import styled from "@emotion/styled";
-import Link from "next/link";
+import styled from '@emotion/styled';
+import Link from 'next/link';
 
 export const Footer: React.FC = () => {
   return (
-    <footer style={{ marginTop: "30px" }}>
+    <footer style={{ marginTop: '30px' }}>
       <hr />
       <Copyright>
-        Copyright ©{" "}
+        Copyright ©{' '}
         <span
           lang="x-pektak"
-          style={{ fontSize: "120%", textDecoration: "underline" }}
+          style={{ fontSize: '120%', textDecoration: 'underline' }}
         >
           <Link href="/">AIL MO LETI CEP</Link>
-        </span>{" "}
+        </span>{' '}
         2021-2023
       </Copyright>
     </footer>
