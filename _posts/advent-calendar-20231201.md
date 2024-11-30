@@ -9,7 +9,7 @@ author:
 # 『筆兵無傾 Advent Calendar 2023』に寄せて
 日本の皆様、こんにちは。アイル共和国文化省広報処の事務長、イェーギン・ガートゥ・シャードザンマー（eghin ghátu ṣádhosammá）です。
 
-この度、日本机戦連盟より『<a href="https://adventar.org/calendars/8555">筆兵無傾 Advent Calendar 2023</a>』にコメントを寄せるよう依頼されました。これは我々の世界について取材した特集記事のイベントだとお聞きしています。アイル共和国、ひいてはファイクレオネとその文化を日本に届けることを使命の一つとする広報処の長として、記事を執筆してくださる方々、および読んでくださる方々のすべてに心よりの感謝を申し上げます。日本の方々から特集記事が組まれるほどにこちら側への関心が高まっていることに、我々の日々の活動の成果を感じております。
+この度、日本机戦連盟より『[筆兵無傾 Advent Calendar 2023](https://adventar.org/calendars/8555)』にコメントを寄せるよう依頼されました。これは我々の世界について取材した特集記事のイベントだとお聞きしています。アイル共和国、ひいてはファイクレオネとその文化を日本に届けることを使命の一つとする広報処の長として、記事を執筆してくださる方々、および読んでくださる方々のすべてに心よりの感謝を申し上げます。日本の方々から特集記事が組まれるほどにこちら側への関心が高まっていることに、我々の日々の活動の成果を感じております。
 
 さて、聖人の記念日に向けて毎日一つずつ記事が発表されるという本イベントの形式ですが、こちらの世界にも「マーサロ」という風習が存在します。これはレアディオという地方で見られる子どもの誕生日に向けて近所の人々が一日ずつお祝いの品を持ち回りで贈るというお祝いの方法なのですが、まったく独立して歩んできたはずの世界においてもこうして似た慣習があるということは、世界が違えども私たち人間に共通するものがあることを教えてくれます。私たちの文化は似ていて違っていますが、それらを知ることは、きっと私たちの目に映る世界をより素晴らしいものにしてくれるでしょう。
 
@@ -20,7 +20,7 @@ author:
 # <span lang="x-ycaxen-medium">JO "</span><span lang="x-linmarn">筆兵無傾</span><span lang="x-ycaxen-medium"> ADBENT KALENDA"</span>
 <div lang="x-ycaxen-medium">
 
-JO NIPPON MOL AUC, CALA! MI E AIL MO LETI CEP LETI ECKIJACIL LETI POLTO LETI LILATA LETI JEGIN GATU XADOCAMMA.
+JO NIPPON MOL AUC, CALA! MI E AIL MO LETI CEP LETI ECKIJACIL LETI POLTO LETI LILATA LETI JEGIN GATU XADOSAMMA.
 
 JO KALETI NOLE MI ICEIT NIPPON CETKAIK LETI LATACET LETI PULEC PI KANTEIT TUDE LUKUP JO "<span lang="x-linmarn">筆兵無傾</span> ADBENT KALENDA". MI JO LATACET CENOCIT KA E XELIT TUDE MI CETLETI UNDE LETI KULANUCTA CET LETI ALWE. JO NIPPON DELU LIJUIT TUDE AIL AT MI CETLETI UNDE AT CILETI MO LETI ENJA MOL JO ECKIJACIL PI JO CILETI LILATA MI CET XACEIT JO AUCLETI KANTEIT TUDE KULANUCTA LETI LATA AT KANTEIT KIJE KULANUCTA LETI LATA. NIPPON LATA KANTEIT TUDE KAPOTO LETI KULANUCTA PI MI JO KA TICOTIT KIJE MI CETLETI INIWI LETI EKIJACIL LETI KILPEL.
 
