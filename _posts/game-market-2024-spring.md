@@ -32,7 +32,7 @@ JO JUCNUKLETI, MI CENOCIT LATA CET CUIT TUDE JO AUCLETI "<span lang="x-linmarn">
 
 JO LUCUCLETI, MI MAK XEP XACEIT JO NIPPON CETKAIK LETI LATACET AT NIPPON LATA CET AT "GEMU MAKETO" LETI LATA CET.
 
-JEGIN GATU XADOSAMMA KANTEIT
+JEGIN GATU XADOSAMMA KANTEIT TUDE
 </div>
 
 # <span lang="x-lineparine">fqiu athime'd "germu market"'s lususo'l</span>
@@ -47,5 +47,6 @@ miss senost veleso dosyto alsa'd "<span lang="x-linmarn">耳声手片</span>"'st
 
 lesback io, mi mak alpileon slaxers alsa'd lartass zu melses "germu market".
 
-jergin gartu xardosammar krante
+jergin gartu xardosammar akranti
+
 </div>
