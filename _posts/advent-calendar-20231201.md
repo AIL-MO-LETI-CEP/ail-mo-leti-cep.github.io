@@ -28,16 +28,20 @@ JO LAUNZA, MI LUKUPIT KALETI ALWE LETI CELA. JO KA LATA JO CUNENEK KACEIT PANLET
 
 JO LUCUCLETI, MI TUWACAIT KA. "<span lang="x-linmarn">筆兵無傾</span> ADBENT KALENDA" E TUDE JO PANKA PI MI CET AT CO CET LETI TUDEKILE E TUDE JO XEP, METICA.
 
+JEGIN GATU XADOSAMMA KANTEIT TUDE
+
 </div>
 
 # «<span lang="x-linmarn">筆兵無傾</span><span lang="x-lineparine"> advent kalendar»'l</span>
 <div lang="x-lineparine">
 
-japaeo'd alsasti, salarua! mi es dzeparo’c fon ai'ren meumen karmaciste'd larkasal l'es jergin gartu xardosammar.
+japaeo'd alsasti, salarua! mi es dzeparo'c fon ai'ren meumen karmaciste'd larkasal l'es jergin gartu xardosammar.
 no io mi veles karxo krantergo tarnz fua «<span lang="x-linmarn">筆兵無傾</span> advent kalendar» lerj cierjustel cerke fon japaeo. mi senost lerj ni la lex eso alwe fon fhantie fon misse'd unde. dzaparo fon ai'ren meumen karmaciste'd larkasal zu letix larkaso japaeo'ct air adit faikleone cix, la lexen meum'it fal feles, mi alpileon slaxers als zu krante krantie adit als zu akranti krantie. mi tisodajt misse'd larkaso'st kjilferl'c japaeoven larta'st krantergo'i krantie'it mels misse'd unde.
 
 mal, alve io larta lurfa panqa'd krantie fal panqa'd snenik el estener'd snenik mal la lexen cela set stes «marcalo». la lex es toinamel selunu'd lexissnen'it fal leadi'o'd girpolto mal selun icve panqa'd la merta a snenik lerj neverfe zu mol fal selunu'd mele el selunu'd lexissnen. la lexess'd stesen meuss mol fal fav waxeson aduarneen undess mal la lex karse miss ad coss letixo daliu iulo neffilxan waxesol unde'st. cosse'd meu ad misse'd meu waxes mal stes, mal miss ad coss qune miscaen meu felx wioll miss ad coss lex xel unde is il xorlnem.
 
 lesback io, mi tvarsna «<span lang="x-linmarn">筆兵無傾</span> advent kalendar»'st iseso'i. wioll miss ad coss il fai'aron fercaglesnies melx lecu la lex mi sinh.
+
+jergin gartu xardosammar krante.
 
 </div>
