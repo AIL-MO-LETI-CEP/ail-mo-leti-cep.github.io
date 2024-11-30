@@ -21,8 +21,10 @@ export default function PostItem({
       <Link href={`blog/${path}`} className="no-underline">
         <Headline>
           <Title>{title}</Title>
-          <Author>{author}</Author>
-          <Date>{date}</Date>
+          <div>
+            <Author>{author}</Author>
+            <Date>{date}</Date>
+          </div>
         </Headline>
         <Excerpt>{excerpt}</Excerpt>
       </Link>
@@ -45,6 +47,9 @@ const Headline = styled.div`
   justify-content: flex-end;
   align-items: baseline;
   margin-bottom: 5px;
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 `;
 
 const Title = styled.h2`
@@ -54,6 +59,10 @@ const Title = styled.h2`
   text-overflow: ellipsis;
   margin-right: auto;
   max-width: 70%;
+  @media screen and (max-width: 768px) {
+    white-space: wrap;
+    max-width: 100%
+  }
 `;
 
 const Author = styled.span`
