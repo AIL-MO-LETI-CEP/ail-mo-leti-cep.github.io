@@ -10,6 +10,7 @@ import {
   cetkaikBookLinkData,
   nincetkaikBookLinkData,
   otherBookLinkData,
+  ailBooksLinkData,
 } from 'src/data/linkdata/kante-kije';
 import usePageTitle from 'src/hooks/usePageTitle';
 
@@ -36,6 +37,8 @@ const Index = () => {
         <h2>言語教材</h2>
         <h3>東島通商語</h3>
         <ExternalLinkList linkDataList={pmcpBooksLinkData} />
+        <h3>アイル語</h3>
+        <ExternalLinkList linkDataList={ailBooksLinkData} />
         <h3>パイグ語</h3>
         <ExternalLinkList linkDataList={praigeBookLinkData} />
         <h3>タカン語</h3>
