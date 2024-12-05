@@ -1,9 +1,13 @@
 import styled from '@emotion/styled';
 
 export const PageTitle = styled.div`
-  margin-top: 40px;
+  margin: 30px 0 10px 0;
   text-align: center;
   font-size: x-large;
+
+  @media screen and (max-width:768px) {
+    margin: 20px 0 10px 0;
+  }
 `;
 
 export const PageDescription = styled.div`
