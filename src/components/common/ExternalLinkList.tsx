@@ -18,7 +18,7 @@ export const ExternalLinkList: FC<LinkDataList> = ({
     {linkDataList.map((linkData: LinkData) => {
       return (
         <ExternalLink
-          key={linkData.title}
+          key={linkData.url}
           title={linkData.title}
           url={linkData.url}
           description={linkData.description}
@@ -29,29 +29,18 @@ export const ExternalLinkList: FC<LinkDataList> = ({
 );
 
 const ExternalLink: FC<LinkData> = ({ title, url, description = [] }) => {
-  if (description.length === 0) {
-    return (
-      <li>
-        <Link key={url} href={url} target="_blank" rel="noopener noreferrer">
-          {title}
-        </Link>
-      </li>
-    );
-  } else {
-    return (
-      <li>
-        <Link href={url} target="_blank" rel="noopener noreferrer">
-          {title}
-        </Link>
-        {description.map((desc) => {
-          return (
-            <>
-              <br />
-              {desc}
-            </>
-          );
-        })}
-      </li>
-    );
-  }
+  return (
+    <li>
+      <Link href={url} target="_blank" rel="noopener noreferrer">
+        {title}
+      </Link>
+      {description.map((desc) => {
+        return (
+          <div key={desc}>
+            {desc}
+          </div>
+        );
+      })}
+    </li>
+  );
 };
