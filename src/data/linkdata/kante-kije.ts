@@ -21,7 +21,12 @@ export const pmcpBooksLinkData = [
   {
     title: '東島通商語コーパス検索システム「ビシェ」',
     url: 'https://sozysozbot.github.io/bixe/search.html',
-    description: ['東島通商語のコーパスを検索できます。現在は東島通商語部分に対してのみ検索ができます。']
+    description: ['東島通商語のコーパスを検索できます。東島通商語部分に対してのみ検索ができます。']
+  },
+  {
+    title: '東島通商語コーパス検索システム「ビシェ」（日本語からの検索）',
+    url: 'https://sozysozbot.github.io/bixe/search.ja.html',
+    description: ['東島通商語のコーパスを検索できます。日本語部分に対してのみ検索ができます。']
   }
 ];
 
