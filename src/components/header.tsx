@@ -48,6 +48,7 @@ export const Header: React.FC = () => {
 
 const LogoContainer = styled.div`
   display: flex;
+  padding-top: 4px;
 `;
 
 const Tab = styled.ul`
