@@ -14,7 +14,7 @@ export const Header: React.FC = () => {
           alt='logo'
           style={{ marginRight: '10px' }}
         />
-        <div style={{ marginLeft: '0px' }}>
+        <div style={{ margin: 'auto 0' }}>
           <Link href='/' className='no-underline'>
             <div lang='ja' style={{ fontSize: '125%' }}>
               アイル共和国文化省
