@@ -7,6 +7,7 @@ author:
 ---
 
 # 『ゲームマーケット2024春』の終了に寄せて
+
 日本の皆様、こんにちは。アイル共和国文化省広報処の事務長、イェーギン・ガートゥ・シャードザンマー（eghin ghátu ṣádhosammá）です。
 
 今季の「ゲームマーケット」が無事に終わったこと、心よりお祝いを申し上げます。「ゲームマーケット」は日本における遊戯の祭典でありますが、「遊戯は人から人へと伝えられ、人々に楽しみを与え、人と人と繋ぐものである」と言われているように(訳注1)遊戯は無限の可能性を秘めたものであり、その遊戯の祭典が開かれるのは誠に素晴らしいことであります。
@@ -22,6 +23,7 @@ author:
 
 # <span lang="x-ycaxen-medium">JO KALETI ATIME LETI "GEMU MAKETO" LUCUCLETI</span>
 <div lang="x-ycaxen-medium">
+
 JO NIPPON MOL AUC, CALA! MI E AIL MO LETI CEP LETI ECKIJACIL LETI POLTO LETI LILATA LETI JEGIN GATU XADOSAMMA.
 
 MI TUWACAIT KALETI ATIME LETI "GEMU MAKETO" E LUCUC PI NUPANKALETI MOLIPLETI JULO CILA. "GEMU MAKETO" E JO NIPPON BELPIC LETI ALWE. "BELPIC, KA E LATA LETI LIJU TUDE JO LATA LETI CUL, PI LATA LETI TUDE JO TATALETI CUL, PI LATA AT LATA LETI PALBICLETI CUL." LUKUPIT KA XALE, BELPIC LETIT XEP-XEP METIC. IT KALETI ALWE LETI JULO E PANKA CILA.
@@ -37,6 +39,7 @@ JEGIN GATU XADOSAMMA KANTEIT TUDE
 
 # <span lang="x-lineparine">fqiu athime'd "germu market"'s lususo'l</span>
 <div lang="x-lineparine">
+
 japaeo'd alsasti, salarua! mi es dzeparo'c fon ai'ren meumen karmaciste'd larkasal l'es jergin gartu xardosammar.
 
 mi alpileon toinam lususo fqiu athime'd "germu market"'s fafsirlnerfe. "germu market"'d kante es "iumim fon velfez" fal nihona'd lkurftless mal la lex es ils xerf velfeze'd alve fal japaeo. "velfez veles lyeso larta'l lerj larta mal jojied lartassa'c la nujon mal falvix larta'i larta'c." velfez la lex xaleon letix kenelifen metis mal velfeze'd alve'st veleso tvarsnavo set es xorlmen.
