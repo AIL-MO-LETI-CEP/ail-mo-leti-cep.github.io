@@ -7,6 +7,7 @@ author:
 ---
 
 # 『ゲームマーケット2025春』の開催に寄せて
+
 日本の皆様、こんにちは。アイル共和国文化省広報処の事務長、イェーギン・ガートゥ・シャードザンマー（eghin ghátu ṣádhosammá）です。
 
 今年の春にゲームマーケットが再び行われることに、心よりお祝いを申し上げます。私がゲームマーケットに向けてメッセージを送るのもこれで三度目となりました。今回は、時を同じくして万国博覧会が日本で開かれており、人々の世界各国への関心が高まっていることでしょう。さらに近年の日本ではボードゲームの人気が高まっており、アイル共和国の知名度もますます高まるでしょう。広報処の長として非常に嬉しく思います。
@@ -21,6 +22,7 @@ author:
 
 # <span lang="x-ycaxen-medium">JO KALETI ATIME LETI "GEMU MAKETO" PACLETI</span>
 <div lang="x-ycaxen-medium">
+
 JO NIPPON MOL AUC, CALA! MI E AIL MO LETI CEP LETI ECKIJACIL LETI POLTO LETI LILATA LETI JEGIN GATU XADOSAMMA.
 
 MI TUWACAIT "GEMU MAKETO" MAK E PAC JO KALETI PIJI CILA. JO KALETI NOLE MI ANCOLIT DUKALETI LATE LETI LUKUP-LUKUP JO "GEMU MAKETO". JO KALETI LOT AUCLETI ICCO LETI ABELIP MOL JO NIPPON PI CETLETI LATA LETI NUKIL E TUDE JO ETLETI ICCO METICA. JO ATAKECIT LETI, CETLETI LATA XELIT NELUP LETI BELPIC PI LATA CET TICOTIT KIJE AIL METICA. MI E ECKIJACIL LETI LILATA PI MI TICOTIT KA E PANKALETI. 
@@ -32,10 +34,12 @@ LATACET LUKUPIT CI CET LETIT TUNI LETI JULO PI JO KA CI CET CUIT KIJE "MI NIPIT!
 JO LUCUCLETI, NUPANKALETI JULO MOLIP PI KALETI "GEMU MAKETO" MAK E LUCUC PI LATA AT LATA LETIT DUTUCUNLETI PALBICLETI. MI PULECIT KA CILA.
 
 JEGIN GATU XADOSAMMA KANTEIT TUDE
+
 </div>
 
 # <span lang="x-lineparine">fqiu athime'd "germu market"'s faso'l</span>
 <div lang="x-lineparine">
+
 japaeo'd alsasti, salarua! mi es dzeparo'c fon ai'ren meumen karmaciste'd larkasal l'es jergin gartu xardosammar.
 
 "germu market" veles tvarsnavo fal fqiu fir. mi alpileon toinam la lex mal fqa es dqate krantie'c zu mi nienex "germu market"'ct. nart rout io als unde'd arvelibeserl at veles tvarsnavo fal japaeo melx jol lartassa'd vxorlnes eten icco ad meu. vatimel, kalzanen japaeo io il loler lartass vxorlnes pievyturvelfeze'c gelx jol wioll il loler lartass qune ai'r.
