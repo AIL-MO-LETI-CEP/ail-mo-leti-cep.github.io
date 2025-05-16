@@ -44,7 +44,7 @@ japaeo'd alsasti, salarua! mi es dzeparo'c fon ai'ren meumen karmaciste'd larkas
 
 "germu market" veles tvarsnavo fal fqiu fir. mi alpileon toinam la lex mal fqa es dqate krantie'c zu mi nienex "germu market"'ct. nart rout io als unde'd arvelibeserl at veles tvarsnavo fal japaeo melx jol lartassa'd vxorlnes eten icco ad meu. vatimel, kalzanen japaeo io il loler lartass vxorlnes pievyturvelfeze'c gelx jol wioll il loler lartass qune ai'r.
 
-nart "germu market" io cierjustel cerke fon japaeo mak virot mal stejies misse'd unde'd velfez adit kranteerl. dytysn aziuk io, niss ledi'o ["mi nipit!"](https://x.com/cet2kaik/status/1920828896649392518) zu naeka'd klorme laozia melx edioll niss untirkanfylon laozia [levip](https://x.com/cet2kaik/status/1920830132635205879). fqiu levip letix alsa'd kraxaiun fon pemecepelukupp ad pergvirle zu mol fal alsa'd krandiurg fon cierjustel cerke fon japaeo. fqass leus japaeo'd lartass il fyrfsykon firlex misse'd lkurferl.
+nart "germu market" io cierjustel cerke fon japaeo mak virot mal stejies misse'd unde'd velfez adit kranteerl. dytysn aziuk es ny la lex. niss ledi'o ["mi nipit!"](https://x.com/cet2kaik/status/1920828896649392518) zu naeka'd klorme laozia melx edioll niss untirkanfylon laozia [levip](https://x.com/cet2kaik/status/1920830132635205879). la lexe'd levip letix alsa'd kraxaiun fon pemecepelukupp ad pergvirle zu mol fal alsa'd krandiurg fon cierjustel cerke fon japaeo. fqass leus japaeo'd lartass il fyrfsykon firlex misse'd lkurferl.
 
 miss senost elx wioll cierjustel's stejieso "mi nipit!" fal "burth" gelx miss aubes dosyto la lex'it lartassa'st zelx cene niv klie fal "germu market".
 
