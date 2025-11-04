@@ -38,7 +38,7 @@ JEGIN GATU XADOSAMMA KANTEIT TUDE
 
 japaeo'd alsasti, salarua! mi es dzeparo'c fon ai'ren meumen karmaciste'd larkasal l'es jergin gartu xardosammar.
 
-"germu market" veles tvarsnavo fal fakirle. mi alpileon toinam la lex mal fqa es jupqate krantie'c zu mi nienex "germu market"'ct. nart "germu market" io cierjustel cerke fon japaeo mak virot mal stejies misse'd unde'd velfez adit kranteerl. dytysn aziuk es ny la lex. niss ledi'o "raik-hrui-wet" fon "foidilsen velfez fon tark xici". la lex es vepaleaven velfez z'es fyrfsyken mal kzarlsanaschen. mal, la lex fai l'es lanerme kaxtlurk "nistaxerf mors mol nistastieniesal" zu kantet "xerf mors atit jyvied mors es yletta".
+"germu market" veles tvarsnavo fal fakirle. mi alpileon toinam la lex mal fqa es jupqate krantie'c zu mi nienex "germu market"'ct. nart "germu market" io cierjustel cerke fon japaeo mak virot mal stejies misse'd unde'd velfez adit kranteerl. dytysn aziuk es ny la lex. niss ledi'o ["aikkfuiwett"](https://x.com/cet2kaik/status/1981915816632471831) fon "foidilsen velfez fon tark xici". la lex es vepaleaven velfez z'es fyrfsyken mal kzarlsanaschen. mal, la lex fai l'es lanerme kaxtlurk "nistaxerf mors mol nistastieniesal" zu kantet "xerf mors atit jyvied mors es yletta".
 
 miss senost elx no io cene xelvirkarxo "aikkfuiwett" fal [jomurn](https://docs.google.com/forms/d/e/1FAIpQLSe1tQ73yV0Ef_dTMe5L6wg3CnSFft2qfadY1dhncSPO3eEgEg/viewform) melx wioll cierjustel's stejieso la lex fal "burth". miss aubes dosyto la lex'it lartassa'st zelx cene niv klie fal "germu market".
 
