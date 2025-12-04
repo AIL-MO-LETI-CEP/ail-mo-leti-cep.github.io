@@ -13,53 +13,51 @@ author:
 
 こうした歴史から、東島通商語における語彙の意味、用法は多くの場合は借用元のリパライン語と一致します。しかし一部の語彙では意味の合流や分化、および用法の変化がみられます。そこで、本稿ではそうした語彙の一部を取り上げ、借用元のリパライン語からの意味・用法の変化や、語彙の使い分けに存在する差を紹介します。
 
-なお、この記事では、本稿の原典となった記事『東島通商語では同根語がいかなる変化を遂げたか、また似た語がいかに同一となったか』（原題："JO PEMECEPE LUKUP JOJALIKUP E TUDE JO KAME PI MELE LIKUP E TUDE JO NUWAXECLETI JO KAME"）に倣い、東島通商語の語を大文字、リパライン語やアイル語等の他言語の語を小文字で表記します。
+## 意味の限定 ～<span lang="x-ycaxen-medium">PONTO</span> / <span lang="x-ycaxen-medium">LAPE</span>～
 
-## 意味の限定 ～PONTO / LAPE～
+<span lang="x-ycaxen-medium">PONTO</span> は「(空間的な)前、前方」を意味する語で、リパライン語 <span lang="x-lineparine">fonto</span>「(空間的な)前方、(時間的な)前」に由来します。この前後の対応はリパラオネ文化圏においては自然でしたが、縦書き燐字文を主体とするラネーメでは定着せず空間的な語義のみが残りました。
 
-PONTO は「(空間的な)前、前方」を意味する語で、リパライン語 fonto「(空間的な)前方、(時間的な)前」に由来します。この前後の対応はリパラオネ文化圏においては自然でしたが、縦書き燐字文を主体とするラネーメでは定着せず空間的な語義のみが残りました。
+<span lang="x-ycaxen-medium">JO DICTIC LETI PONTO</span> その建物の前に
 
-JO DICTIC LETI PONTO その建物の前に
+東島通商語で時間的な前後を表すには、リパライン語の接尾辞 <span lang="x-lineparine">-effe</span>「〜の上」, <span lang="x-lineparine">-unsar</span>「〜の下」 にそれぞれ名詞化語基の <span lang="x-lineparine">la</span> を付加した形に由来する <span lang="x-ycaxen-medium">LAPE, LAUNZA</span> を用います。
 
-東島通商語で時間的な前後を表すには、リパライン語の接尾辞 -effe「〜の上」, -unsar「〜の下」 にそれぞれ名詞化語基の la を付加した形に由来する LAPE, LAUNZA を用います。
+<span lang="x-ycaxen-medium">JO CILETI LAPE</span> その(時間的な)前に/その(空間的な)上に  
+<span lang="x-ycaxen-medium">JO PANLETI LOT LAUNZA</span> 一年後に
 
-JO CILETI LAPE その(時間的な)前に/その(空間的な)上に
-JO PANLETI LOT LAUNZA 一年後に
+なお、東島通商語で空間的な後ろを意味するには、アイル語で同じく「後ろ」を意味する <span lang="x-ail">peixe</span> に由来する <span lang="x-ycaxen-medium">PEXE</span> を用います。
 
-なお、東島通商語で空間的な後ろを意味するには、アイル語で同じく「後ろ」を意味する peixe に由来する PEXE を用います。
+## 否定による意味の限定 ～<span lang="x-ycaxen-medium">PUPCUK</span> / <span lang="x-ycaxen-medium">LACIK</span>～
 
-## 否定による意味の限定 ～PUPCUK / LACIK～
+東島通商語において「簡単な」や「単純な」を意味するときは <span lang="x-ycaxen-medium">PUPCUK</span> や <span lang="x-ycaxen-medium">LACIK</span> を用います。<span lang="x-ycaxen-medium">PUPCUK</span> はリパライン語の <span lang="x-lineparine">fyrfsyk</span>「簡単な、簡素な」に、<span lang="x-ycaxen-medium">LACIK</span> はその派生接尾辞である <span lang="x-lineparine">-syk</span> に名詞化語基 <span lang="x-lineparine">la</span> がついたものに由来します。
 
-東島通商語において「簡単な」や「単純な」を意味するときは PUPCUK や LACIK を用います。PUPCUK はリパライン語の fyrfsyk「簡単な、簡素な」に、LACIK はその派生接尾辞である -syk に名詞化語基 la がついたものに由来します。
+リパライン語において <span lang="x-lineparine">fyrfsyk</span> は「簡単な」と「単純な」の両方に使われる一方で、<span lang="x-lineparine">-syk</span> は接尾辞であるということも合わさってもっぱら「簡単な」を意味します。しかし東島通商語では <span lang="x-ycaxen-medium">PUPCUK</span> と <span lang="x-ycaxen-medium">LACIK</span> の間に明確な使い分けは見られず、どちらの意味にも同程度の頻度で出現します。
 
-リパライン語において fyrfsyk は「簡単な」と「単純な」の両方に使われる一方で、-syk は接尾辞であるということも合わさってもっぱら「簡単な」を意味します。しかし東島通商語では PUPCUK と LACIK の間に明確な使い分けは見られず、どちらの意味にも同程度の頻度で出現します。
+ただし、<span lang="x-ycaxen-medium">-syk</span> に否定接頭辞の <span lang="x-ycaxen-medium">NU-</span> が付いてできた語である <span lang="x-ycaxen-medium">NUCIK</span> は「難しい」の意味のみに用いられ、「単純でない」や「簡素でない」を意味することはできません。それらを意味するには <span lang="x-ycaxen-medium">NIP E PUPCUK</span> や <span lang="x-ycaxen-medium">NIP E LACIK</span> のように、もとの用言の否定形を用いるか、もしくは <span lang="x-ycaxen-medium">E PEXETOXE</span>「複雑な」のような別の言い方を用いる必要があります。
 
-ただし、-syk に否定接頭辞の NU- が付いてできた語である NUCIK は「難しい」の意味のみに用いられ、「単純でない」や「簡素でない」を意味することはできません。それらを意味するには NIP E PUPCUK や NIP E LACIK のように、もとの用言の否定形を用いるか、もしくは E PEXETOXE「複雑な」のような別の言い方を用いる必要があります。
+## 語形の分化 ～<span lang="x-ycaxen-medium">PANLETI</span> / <span lang="x-ycaxen-medium">PANKALETI</span>～
 
-## 語形の分化 ～PANLETI / PANKALETI～
+それぞれ「一つの」と「良い」を意味する言葉で、それぞれリパライン語の <span lang="x-lineparine">panqa</span> およびその短縮形である <span lang="x-lineparine">pan</span> に由来します。「良い」の意味を持つ語としては現代のリパライン語では <span lang="x-lineparine">vynut</span> の方がよく見られますが、東島通商語にはこちらの語は借用されていません。
 
-それぞれ「一つの」と「良い」を意味する言葉で、それぞれリパライン語の panqa およびその短縮形である pan に由来します。「良い」の意味を持つ語としては現代のリパライン語では vynut の方がよく見られますが、東島通商語にはこちらの語は借用されていません。
+## 使用される対義語ペアの分化 ～<span lang="x-ycaxen-medium">PANLETI, NUPANLETI</span> / <span lang="x-ycaxen-medium">NUWAXECLETI, WAXECLETI</span>～
 
-## 使用される対義語ペアの分化 ～PANLETI, NUPANLETI / NUWAXECLETI, WAXECLETI～
+<span lang="x-ycaxen-medium">PANLETI</span> は上で述べているように「一つの」を意味する他に、その派生として「同じ」という意味でも使われます。そしてこれに否定接頭辞の <span lang="x-ycaxen-medium">NU-</span> がついた <span lang="x-ycaxen-medium">NUPANLETI</span> は「異なる」という意味を持ちます。
 
-PANLETI は上で述べているように「一つの」を意味する他に、その派生として「同じ」という意味でも使われます。そしてこれに否定接頭辞の NU- がついた NUPANLETI は「異なる」という意味を持ちます。
+<span lang="x-ycaxen-medium">WAXECLETI</span> はリパライン語の <span lang="x-lineparine">waxes</span>「異なる」に由来する語で、そのまま「異なる」を意味します。そしてこれに否定接頭辞の <span lang="x-ycaxen-medium">NU-</span> がついた <span lang="x-ycaxen-medium">NUWAXECLETI</span> は「同じ」という意味を持ちます。
 
-WAXECLETI はリパライン語の waxes「異なる」に由来する語で、そのまま「異なる」を意味します。そしてこれに否定接頭辞の NU- がついた NUWAXECLETI は「同じ」という意味を持ちます。
+これら四つの単語、すなわち二つの対義語ペアは、用例の上では特に意味や場面における使い分けの差はありませんが、著者・話者に応じてどちらのペアを使用するかが分かれる傾向がみられます。大きく分けると、アイル語やパイグ語などのラネーメ系の言語を母語とする話者は <span lang="x-ycaxen-medium">PANLETI</span>/<span lang="x-ycaxen-medium">NUPANLETI</span> のペアを好み、リパライン語やヴェフィス語を母語とする話者は <span lang="x-ycaxen-medium">NUWAXECLETI</span>/<span lang="x-ycaxen-medium">WAXECLETI</span> のペアを好むようです。
 
-これら四つの単語、すなわち二つの対義語ペアは、用例の上では特に意味や場面における使い分けの差はありませんが、著者・話者に応じてどちらのペアを使用するかが分かれる傾向がみられます。大きく分けると、アイル語やパイグ語などのラネーメ系の言語を母語とする話者は PANLETI/NUPANLETI のペアを好み、リパライン語やヴェフィス語を母語とする話者は NUWAXECLETI/WAXECLETI のペアを好むようです。
+ただし <span lang="x-ycaxen-medium">PANLETI</span> の否定、すなわち「異なる」を表すのに <span lang="x-ycaxen-medium">NUPANLETI</span> でなく <span lang="x-ycaxen-medium">WAXECLETI</span> を好んで用いる話者もまた一定数存在します。こうした層には東島通商語を第一言語とする現代PMCPの若者が多いようです。
 
-ただし PANLETI の否定、すなわち「異なる」を表すのに NUPANLETI でなく WAXECLETI を好んで用いる話者もまた一定数存在します。こうした層には東島通商語を第一言語とする現代PMCPの若者が多いようです。
+## 複数性と多数性の違い ～<span lang="x-ycaxen-medium">NUPANLETI</span> / <span lang="x-ycaxen-medium">CETLETI</span>～
 
-## 複数性と多数性の違い ～NUPANLETI / CETLETI～
+<span lang="x-ycaxen-medium">NUPANLETI</span> が <span lang="x-ycaxen-medium">PANLETI</span> の否定であることは既に述べていますが、<span lang="x-ycaxen-medium">PANLETI</span> は「同じ」の他に「一つの」の意味も持っていて、その否定である <span lang="x-ycaxen-medium">NUPANLETI</span> は「異なる」と同時に「複数の」という意味を持ちます。<span lang="x-ycaxen-medium">CETLETI</span> はリパライン語 <span lang="x-lineparine">set</span>「多くの、たくさんの」を継承した語です。
 
-NUPANLETI が PANLETI の否定であることは既に述べていますが、PANLETI は「同じ」の他に「一つの」の意味も持っていて、その否定である NUPANLETI は「異なる」と同時に「複数の」という意味を持ちます。CETLETI はリパライン語 set「多くの、たくさんの」を継承した語です。
+さて、この複数を意味する二つの語ですが、これらの間には傾向としての使い分けが存在します。それは特定かつ少数、すなわち「（数えられる、話者が把握している範囲で）いくつかの」と言う場合や、一つと対比して複数であることに言及したい場合には <span lang="x-ycaxen-medium">NUPANLETI</span> が用いられ、大多数、すなわち「（話者が数を把握しているかにかかわらず）多くの」と言う場合には <span lang="x-ycaxen-medium">CETLETI</span> が用いられるという傾向です。
 
-さて、この複数を意味する二つの語ですが、これらの間には傾向としての使い分けが存在します。それは特定かつ少数、すなわち「（数えられる、話者が把握している範囲で）いくつかの」と言う場合や、一つと対比して複数であることに言及したい場合には NUPANLETI が用いられ、大多数、すなわち「（話者が数を把握しているかにかかわらず）多くの」と言う場合には CETLETI が用いられるという傾向です。
+<span lang="x-ycaxen-medium">NUPANLETI DEC MOL</span> いくつかの色がある/異なる色がある  
+<span lang="x-ycaxen-medium">CETLETI DEC MOL</span> たくさんの色がある
 
-NUPANLETI DEC MOL いくつかの色がある/異なる色がある
-CETLETI DEC MOL たくさんの色がある
-
-聞き手に対してより大きな数を想定させるのは CETLETI の方なので、広告などにおいては CETLETI がより頻繁に見られる傾向にあります。
+聞き手に対してより大きな数を想定させるのは <span lang="x-ycaxen-medium">CETLETI</span> の方なので、広告などにおいては <span lang="x-ycaxen-medium">CETLETI</span> がより頻繁に見られる傾向にあります。
 
 # おわりに
 ここまで、東島通商語の語彙の微妙な差や他言語と異なる使い分けについて紹介しました。
