@@ -46,6 +46,11 @@ a.no-underline {
     src: url('https://yasusho.github.io/linmarn_font_project/fonts/rounded/linzklar_rounded.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'ail';
+    src: url('https://yasusho.github.io/linmarn_font_project/cursive_liparxe/cursive_liparxe.woff') format('woff');
+}
+
 :lang(x-lineparine) {
     font-family: 'cirlipa';
     line-height: 1.5em;
@@ -77,6 +82,12 @@ a:lang(x-lineparine) {
     font-family: 'rounded';
     font-size: 110%;
     vertical-align: -15%;
+}
+
+:lang(x-ail) {
+    font-family: 'ail';
+    font-size: 100%;
+    vertical-align: -10%;
 }
 
 .header-logo-container {

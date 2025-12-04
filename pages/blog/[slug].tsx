@@ -15,10 +15,10 @@ type Props = {
   readonly post: Post;
 };
 
-const postPage: NextPage<Props> = ({ post }: Props) => {
+const PostPage: NextPage<Props> = ({ post }: Props) => {
   const router = useRouter();
-  usePageTitle(post?.title);
-  if (!router.isFallback && !post?.slug) {
+  usePageTitle(post.title);
+  if (!router.isFallback && !post.slug) {
     return <ErrorPage statusCode={404} />;
   }
   return (
@@ -48,7 +48,7 @@ const postPage: NextPage<Props> = ({ post }: Props) => {
   );
 };
 
-export default postPage;
+export default PostPage;
 
 type Params = ParsedUrlQuery & {
   readonly slug: string;
