@@ -1,12 +1,27 @@
+import { defineConfig } from 'eslint/config';
 import _import from 'eslint-plugin-import';
 import react from 'eslint-plugin-react';
 import unusedImports from 'eslint-plugin-unused-imports';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config({
+export default defineConfig(
+  {
+    ignores: [
+      '**/package-lock.json',
+      'node_modules/**',
+      '.next/**',
+      'out/**',
+      'build/**',
+      'dist/**',
+      '*.log',
+      '.idea/**',
+      '.vscode/**',
+    ]
+  },
+  {
   files: ['**/*.ts', '**/*.tsx', '**/*.mjs'],
-  ignores: ['**/package-lock.json', '**/node_modules/', '**/.next/'],
+  
   languageOptions: {
     parser: tseslint.parser,
     globals: {
