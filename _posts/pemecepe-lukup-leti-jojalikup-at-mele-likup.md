@@ -32,7 +32,7 @@ author:
 
 リパライン語において <span lang="x-lineparine">fyrfsyk</span> は「簡単な」と「単純な」の両方に使われる一方で、<span lang="x-lineparine">-syk</span> は接尾辞であるということも合わさってもっぱら「簡単な」を意味します。しかし東島通商語では <span lang="x-ycaxen-medium">PUPCUK</span> と <span lang="x-ycaxen-medium">LACIK</span> の間に明確な使い分けは見られず、どちらの意味にも同程度の頻度で出現します。
 
-ただし、<span lang="x-ycaxen-medium">-syk</span> に否定接頭辞の <span lang="x-ycaxen-medium">NU-</span> が付いてできた語である <span lang="x-ycaxen-medium">NUCIK</span> は「難しい」の意味のみに用いられ、「単純でない」や「簡素でない」を意味することはできません。それらを意味するには <span lang="x-ycaxen-medium">NIP E PUPCUK</span> や <span lang="x-ycaxen-medium">NIP E LACIK</span> のように、もとの用言の否定形を用いるか、もしくは <span lang="x-ycaxen-medium">E PEXETOXE</span>「複雑な」のような別の言い方を用いる必要があります。
+ただし、<span lang="x-lineparine">-syk</span> に否定接頭辞の <span lang="x-ycaxen-medium">NU-</span> が付いてできた語である <span lang="x-ycaxen-medium">NUCIK</span> は「難しい」の意味のみに用いられ、「単純でない」や「簡素でない」を意味することはできません。それらを意味するには <span lang="x-ycaxen-medium">NIP E PUPCUK</span> や <span lang="x-ycaxen-medium">NIP E LACIK</span> のように、もとの用言の否定形を用いるか、もしくは <span lang="x-ycaxen-medium">E PEXETOXE</span>「複雑な」のような別の言い方を用いる必要があります。
 
 ## 語形の分化 ～<span lang="x-ycaxen-medium">PANLETI</span> / <span lang="x-ycaxen-medium">PANKALETI</span>～
 
