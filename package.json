@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -14,10 +14,10 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "gray-matter": "^4.0.3",
-    "next": "15.5.4",
+    "next": "16.0.8",
     "query-string": "^9.3.1",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
     "react-markdown": "^10.1.0",
     "react-use": "^17.6.0",
     "rehype-raw": "^7.0.0",
@@ -27,11 +27,11 @@
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
-    "@types/node": "24.7.0",
-    "@types/react": "19.2.2",
-    "@types/react-dom": "19.2.1",
+    "@types/node": "24.10.2",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
     "eslint": "^9.39.1",
-    "eslint-config-next": "15.5.4",
+    "eslint-config-next": "16.0.8",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
@@ -41,10 +41,10 @@
     "lint-staged": "^16.2.7",
     "serve": "^14.2.5",
     "typescript": "5.9.3",
-    "typescript-eslint": "^8.48.0"
+    "typescript-eslint": "^8.49.0"
   },
   "volta": {
-    "node": "24.9.0",
-    "pnpm": "10.17.1"
+    "node": "24.11.1",
+    "pnpm": "10.25.0"
   }
 }
