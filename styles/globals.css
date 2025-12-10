@@ -48,7 +48,7 @@ a.no-underline {
 
 @font-face {
     font-family: 'ail';
-    src: url('https://yasusho.github.io/linmarn_font_project/cursive_liparxe/cursive_liparxe.woff') format('woff');
+    src: url('https://yasusho.github.io/qafopwa_pmcp_font/acil_lujot/acil_air.woff') format('woff');
 }
 
 :lang(x-lineparine) {
@@ -86,8 +86,8 @@ a:lang(x-lineparine) {
 
 :lang(x-ail) {
     font-family: 'ail';
-    font-size: 100%;
-    vertical-align: -10%;
+    font-size: 110%;
+    vertical-align: -5%;
 }
 
 .header-logo-container {
