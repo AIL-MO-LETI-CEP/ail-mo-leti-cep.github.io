@@ -14,10 +14,10 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "gray-matter": "^4.0.3",
-    "next": "16.0.8",
+    "next": "16.0.10",
     "query-string": "^9.3.1",
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "react-markdown": "^10.1.0",
     "react-use": "^17.6.0",
     "rehype-raw": "^7.0.0",
@@ -27,11 +27,11 @@
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
-    "@types/node": "24.10.2",
+    "@types/node": "24.10.4",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-    "eslint": "^9.39.1",
-    "eslint-config-next": "16.0.8",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "16.0.10",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
@@ -41,7 +41,7 @@
     "lint-staged": "^16.2.7",
     "serve": "^14.2.5",
     "typescript": "5.9.3",
-    "typescript-eslint": "^8.49.0"
+    "typescript-eslint": "^8.50.0"
   },
   "volta": {
     "node": "24.11.1",
