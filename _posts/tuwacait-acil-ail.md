@@ -16,7 +16,7 @@ author:
 
 # <span lang="x-lineparine">"acil ai'r" kliergo'i toinam</span>
 
-<span lang="x-lineparine">ai'ren lkurftless es iccoven lkurftlesse'd panqa fal ai'r mal veles liuso loler lartass. l'es dytysn garfadent "acil ai'r" elx liaxa klie fal misse'd ujul melx no io cene lartass krante mal akranti ai'ren lkurftless lerj ai'ren liparxe. wioll fasta io il loler ai'ren lkurtlesse'd krandiurg tydiest japaeo'l. la lex es set xonerglifte mal miss alpileon larkas.</span>s
+<span lang="x-lineparine">ai'ren lkurftless es iccoven lkurftlesse'd panqa fal ai'r mal veles liuso loler lartass. l'es dytysn garfadent "acil ai'r" elx liaxa klie fal misse'd ujul melx no io cene lartass krante mal akranti ai'ren lkurftless lerj ai'ren liparxe. wioll fasta io il loler ai'ren lkurtlesse'd krandiurg tydiest japaeo'l. la lex es set xonerglifte mal miss alpileon larkas.</span>
 
 # 「アスィル・アイル」について
 
